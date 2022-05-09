@@ -8,7 +8,10 @@
 * HTML5
 * CSS
 * JavaScript (LocalStorage, DOM)
+* Advanced Js
 * Bootstrap
+* 
+* Rapid Free API
 
 
 # Key Highlights of our project.
