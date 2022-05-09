@@ -23,113 +23,123 @@
 
 ![2022-04-02 (5)]()
 
-### Sign in Page:
+### Create Account Page:
 
-2.It is for new users one can sign up for ordering, And can enjoy the services of Nykaa. Signup contains the registration of email, mobile number, and setting of a password.
+2.It is for new users one can Create Account for Booking Hotels,flights,Cars etc, And can enjoy the services of Expedia Travel. Create Account  contains the registration of email, name,surename and setting of a password.Password creation is as per standard approach. Minimum length should be of Eight Charactors,One capital letter,one aplha numeric key and one should be a number. Acoordingly strength of the password is shown dynamically in different colors like red,blue and green as shown in the given below images.
    
 ![2022-04-02 (5)]()
+![2022-04-02 (5)]()
+![2022-04-02 (5)]()
+![2022-04-02 (5)]()
 
-### login Page:
 
-3.After signup, One can log in to the site by entering the rightemail id and password..
 
+### Welcome Page:
+3.After successfully creating account you will redirect to welcom page , and from here by clicking on continue it will takes you in login page.
+![2022-04-02 (5)]()
+
+### login Page/ Sign in Page:
+
+4.After Creating Account , One can log in to the site by entering the rightemail id and password.If Password or Email is not matching it will throw the error as shown in below image.After sign we will redirect to homepage.
+
+![2022-04-02 (5)]()
 ![2022-04-02 (5)]()
 
 ### Home Page:
 
-4.After successfully login you will redirect to our HomePgae. Where you will find all information related with our website.
+5.After successfully login you will redirect to our HomePgae. Where you will find all information related with our website.
 
 ![2022-04-02 (5)]()
 
 ### Brands Page:
 
-5.In the brand page we can see various products on the basis ofrating and also user can sort functionality for price hight to low and vice versa. There is an options to add products in cart .
+6.In the brand page we can see various products on the basis ofrating and also user can sort functionality for price hight to low and vice versa. There is an options to add products in cart .
 
 ![2022-04-02 (5)]()
 
 ### Nykaa Page:
 
-6.In this you will see all products which are available only on Nykaa.
+7.In this you will see all products which are available only on Nykaa.
 
 ![2022-04-02 (5)]()
 
 ### Cart Page:
 
-7.From the brand page, you can add items to the cart for ordering or for future checkout. The cart will have your watchlist and anytime you can also remove items from the cart and can add also.
+8.From the brand page, you can add items to the cart for ordering or for future checkout. The cart will have your watchlist and anytime you can also remove items from the cart and can add also.
 
 ![2022-04-02 (5)]()
 
 ### Adress Page:
 
-8.For confirming an order, one has to enter the address for delivery of the item. Also, here all fields are mandatory any field which has no field will not lead to the next page.
+9.For confirming an order, one has to enter the address for delivery of the item. Also, here all fields are mandatory any field which has no field will not lead to the next page.
 
 ![2022-04-02 (5)]()
 
 
 ### Payment Page:
 
-9.After entering the address, you will redirect to the payment page there you will find multiple payment options . you can select any one option. After entering the right OTP your payment will get successfully done.
+10.After entering the address, you will redirect to the payment page there you will find multiple payment options . you can select any one option. After entering the right OTP your payment will get successfully done.
 
 ![2022-04-02 (5)]()
 
 ### Payment receipt: :
 
-10.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+11.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
 
 ![2022-04-02 (5)]()
 
 
 ### footer: :
 
-11.At the bottom of our site there is a section which contains all information about our company, term and conditions, and customer support.
+12.At the bottom of our site there is a section which contains all information about our company, term and conditions, and customer support.
 
 ![2022-04-02 (5)]()
 
 
 ### Makeup Page: :
 
-12.This page contains makeup related products.
+13.This page contains makeup related products.
 
 ![2022-04-02 (5)]()
 
 ### Skin Page: :
 
-13.This page contains skin related products.
+14.This page contains skin related products.
 
 ![2022-04-02 (5)]()
 
 
 ### Offers Page: :
 
-14.This page conatins current offers which are going on.
+15.This page conatins current offers which are going on.
 
 ![2022-04-02 (5)]()
 
 
 ### GetApp Page: :
 
-15.you can also use our mobile through the download link which is provided here.
+16.you can also use our mobile through the download link which is provided here.
 
 ![2022-04-02 (5)]()
 
 
 ### Store Page: :
 
-16.This page will give you location of our nearest stores.
+17.This page will give you location of our nearest stores.
 
 ![2022-04-02 (5)]()
 
 
 ### Gift Crad Page: :
 
-17.you can also gift the products throgh this page.
+18.you can also gift the products throgh this page.
 
 ![2022-04-02 (5)]()
 
 
 ### Help Page: :
 
-18.For FAQ one can use this page .
+19.For FAQ one can use this page .
 
 ![2022-04-02 (5)]()
 
