@@ -379,7 +379,7 @@ document.getElementById("stays_button").addEventListener("click",stays);
      let find_city_country= async ()=>{
         let query= document.querySelector("#inputbox1").value;
 
-        let url= `http://api.geonames.org/searchJSON?q=${query}&maxRows=10&username=shivambais`
+        let url= `https://api.geonames.org/searchJSON?q=${query}&maxRows=10&username=shivambais`
 
         let res= await fetch(url)
 
