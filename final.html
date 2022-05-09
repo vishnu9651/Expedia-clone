@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            
+            background-color:lightgray;          
+            
+            width:500px;
+            height:500px;
+            margin:auto;
+            text-align: center;
+        padding: 10px;
+        line-height:0mm ;
+        }
+        img{padding-bottom:0px;
+            height:100px;
+            width: 350px;
+        }
+        h1{
+            color:orangered
+        }
+        #details{
+            line-height: 5mm;
+            display:flex;
+            justify-content: space-around;
+            text-align: left;
+        }
+        button{
+            height: 30px;
+            width:60px;
+            background-color:skyblue;
+            border-color: skyblue;
+        }
+        #print{
+            line-height: 6mm;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div><img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg"></div>
+    <h1>Booking Sucessfull !</h1>    
+    <div id="details">
+        <div>
+            <h3>Name :</h3>
+            <h3>Mobile No :</h3>
+            <h3>Email :</h3>
+            
+            <h3>Booking id :</h3>
+            <h3>Check in :</h3>
+            <h3>Check out :</h3>
+            
+            <h3>Amount :</h3>
+            <button id="print">Print</button>
+        </div>
+        <div id="print">
+            <p id=name></p>
+            <p id=mobile></p>
+            <p id="email"></p>
+            <p id="trans"></p>
+            <p id=checkIn></p>
+            <p id="checkOut"></p>
+            
+            <p id="amount"></p>
+            <button id="Close" ><a href="homepage.html" style="text-decoration: none;">Close</a></button>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+<script>
+    var output=JSON.parse(localStorage.getItem("detail"))||[]
+    console.log(output)
+    //output.map(function(elem){
+        
+        let name=document.createElement("h3")
+//name.innerText=elem.name
+ document.querySelector("#name").innerText=output[0].name  
+ document.querySelector("#mobile").innerText=output[0].mobile
+ document.querySelector("#email").innerText=output[0].email
+ document.querySelector("#trans").innerText=5787
+ 
+ var selectedHotel=JSON.parse(localStorage.getItem("selectedHotel"))
+
+ document.querySelector("#checkIn").innerText=selectedHotel.checkInDate
+ document.querySelector("#checkOut").innerText=selectedHotel.checkOutDate
+ var total=JSON.parse(localStorage.getItem("total"))
+ document.querySelector("#amount").innerText=total.total
+ var colse=document.createElement("button")
+ document.querySelector("#close").innerText=total.total
+// document.querySelector("#print").append(name)
+// })
+    
+// let details=document.getElementById("Details")
+
+
+// let mobile=document.createElement("h3")
+// mobile.innertext=
+// let tran=document.createElement("h3")
+// tran.innertext=
+// let checkin=document.createElement("h3")
+// checkin.innertext=
+// let checkout=document.createElement("h3")
+// checkout.innertext=
+// let email=document.createElement("h3")
+// email.innertext=
+// let amount=document.createElement("h3")
+// amount.innertext=
+
+
+
+
+</script>
