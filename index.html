@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+  <title>Expedia Travel: Vacation</title>
+  <script
+  src="https://kit.fontawesome.com/24c494a6b6.js"
+  crossorigin="anonymous"
+></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+ 
+</head>
+<body>
+  <!-- /* header start */ -->
+  <div id="header">
+
+    <div id="headerbox1">
+      <a href="index.html"> <img src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2" ></a>
+  
+    
+  
+      <div class="btn-group" >
+        <button  style="background-color: white; font-size: 15px; font-weight: 500; color: rgb(56, 51, 51); border: none; text-decoration: none; box-shadow: none;" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More travel
+        </button>
+        <div class="dropdown-menu" id="homeButton_moreTravels">
+           <a class="dropdown-item"id="more_stays"  href="products.html">Stays </a>
+          <a class="dropdown-item" id="more_flights" href="#">Flights</a>
+          <a class="dropdown-item" id="more_cars" href="#">Cars</a>
+          <a class="dropdown-item" id="more_packages" href="#">Packages</a>
+          <a class="dropdown-item" id="more_things" href="#">Holiday activities</a>
+         
+          <a class="dropdown-item" href="#">Deals</a>
+          <a class="dropdown-item" href="#">Groups & meetings</a>
+          <a class="dropdown-item" href="#">Mobiles</a>
+      </div>
+      </div>
+     
+    </div>
+    <div id="headerbox2">
+      <a href="#"><i class="fa-solid fa-globe"></i><label >English</label></a>
+      <a href="#"><label>Support</label></a>
+      <a href="#"><label>Trips</label></a>
+      <a href="#" id="signin"><label>Sign in</label></a>
+    </div>
+  
+    <div id="display_siginDropdown">
+    </div>
+  </div>
+
+  
+
+     <!-- header end -->
+
+
+     <!-- hompepage start -->
+
+  
+     <div id="project_homepage">
+       <div id="homepagebox1">
+         <div id="homepagebox1_a">
+           <button id="stays_button" >Stays</button>
+           <button id="flights_button" >Flights</button>
+           <button id="cars_button">Cars</button>
+           <button id="packages_button">Packages</button>
+           <button id="thingstodo_button">Things to do</button>
+         </div>
+
+         <div id="error_in_home" ></div>
+
+         
+         <div id="homepagebox1_b">
+
+          <!-- stays code -->
+          <!-- <div id="stay_traveller_rooms">
+         
+            <div> <input class="input_icon"type="text" id="inputbox1" placeholder="Going to">
+              <input class="checkin_icon" type="date" id="inputbox2">
+              <input class="checkout_icon" type="date" id="inputbox3">
+            </div>
+            <div id="travellers_div">
+               <div> <i class="fa-solid fa-user"></i></div>
+                  <div>1 Room</div>
+                  <div id="no_of_travellers">1 Traveller</div>
+              </div>
+          </div>
+           <input type="checkbox" id="inputbox5"><label >Add a flight</label>
+           <input type="checkbox" id="inputbox6"> <label >Add a car</label><br>
+           <button id="inputboxbutton">Search</button>  -->
+
+
+           
+                  <!-- <div id="travellers_display">
+                    <h2 id="">Travellers</h2>
+                    <p>Room 1</p>
+
+
+                    <div id="counter_travellers">
+                        <div>Adults</div>
+                        <div id="counter">
+                            <div id="add_travellers">+</div>
+                            <div id="display_count">1</div>
+                            <div id="remove_travellers">-</div>
+                        </div>
+                    </div>
+
+                    <button id="count_doneButton">Done</button>
+                </div> -->
+
+            <!-- flights code -->
+
+               <!-- <div id="homepagebox1_ba">
+
+                <div id="homepagebox1_ba_1">
+                  <button id="Return_btn">Return</button>
+                  <button id="Oneway_btn">One-way</button>
+                  <button id="multiway_btn">Multi-city</button>
+                </div>
+                 <div id="homepagebox1_ba_2">
+
+                  <p>traveller</p>
+                  <p>Economy</p>
+
+                 </div>
+               </div>
+              
+           
+           <input class="input_icon" type="text" placeholder="Leaving from"><i class="fa-solid fa-right-left"></i>
+           <input class="input_icon" type="text" placeholder="Going to">
+           <input type="date" > <br>
+           <button id="flights_search_btn">Search</button>
+
+         </div> -->
+
+
+
+         <!-- cars code -->
+
+
+
+         <!-- <div id="homepagebox1_ba">
+
+          <div id="homepagebox1_ba_1">
+            <button id="Return_btn">Car hire</button>
+            <button id="Oneway_btn">Airport transport</button>
+            
+          </div>
+       
+         </div>
+        
+     
+     <input id="car_location1" class="input_icon" type="text" placeholder="Pick-up">
+     <input id="car_location2" class="input_icon" type="text" placeholder="Same as pick-up"><br>
+     <input id="car_date1" type="date" >
+     <input id="car_date2" type="date" >
+     <input id="car_time1" type="time">
+     <input id="car_time2" type="time"><br>
+     <button id="cars_search_btn">Search</button>
+
+   </div> -->
+
+
+   <!-- packages code -->
+
+     <!-- <div id="homepagebox1_ba_packages">
+
+                
+                 <div id="homepagebox1_ba_2">
+
+                  <p>traveller</p>
+                  <p>Economy</p>
+
+                 </div>
+               </div>
+              
+           
+           <input id="packages_location1" class="input_icon" type="text" placeholder="Leaving from"><i class="fa-solid fa-right-left"></i>
+           <input id="packages_location2" class="input_icon" type="text" placeholder="Going to">
+           <input id="packages_date1" type="date" >
+           <input id="packages_date2" type="date"> <br>
+           <input id="packages_checkbox" type="checkbox"><label >I only need accommodation for part of my trip</label><br>
+           <button id="packages_search_btn">Search</button>
+
+         </div> -->
+
+
+
+         <!-- things to do code -->
+
+    <!-- <input id="things_location2" class="input_icon" type="text" placeholder="Things to do">
+    <input id="things_date1" type="date" >
+    <input id="things_date2" type="date"> <br>
+   
+    <button id="things_search_btn">Search</button>
+
+  </div> -->
+
+
+
+
+
+       </div>
+  </div>
+
+
+
+       <div id="homepagebox2">
+         <div id="homepagebox2_a">
+          <h1>Save instantly with Expedia Rewards</h1>
+          <p>You can enjoy access to perks like Member Prices, saving you 10% or more on select hotels. Terms may apply.</p>
+          <button>See Member Prices</button>
+         </div>
+          </div>
+     </div>
+
+
+
+    <!-- * footer start *  -->
+
+     <div id="footer">
+       <div id="footerbox1">
+         <p id="p1">Plan ahead and save</p>
+         <p>Books 60 days in advance for 20% off select stays.</p>
+
+       </div>
+       <div id="footerbox2">
+         <div id="footerbox2a">
+           <img src="https://a.travel-assets.com/mad-service/footer/bnaBanners/BEX_ROME_iStock_72dpi.jpg">
+         </div>
+         <div id="footerbox2b"> 
+           <h2>Members get more on the app</h2>
+           <p  id="para1">Earn double Expedia Rewards points when you book on the app, plus get travel alerts and manage your bookings on the go.</p>
+           <h3>Text yourself a download link for easy access</h3>
+           <input type="number" placeholder="Country code">
+           <input type="number" placeholder="Phone number">
+          <button  id="footer_submit"> Get the app</button>
+           <p id="para2">By providing your number, you agree to receive a one-time automated text message with a link to get the app. Standard text message rates may apply.</p>
+         </div>
+         <div id="footerbox2c">
+           <img src="https://a.travel-assets.com/mad-service/qr-code/footer_qr_hp/27_QR_FOOTER_HP.png" >
+           <p>Scan the QR code</p>
+         </div>
+       </div>
+       <div id="footerbox3">
+        <div id="footerbox3a">
+          <p>Explore a world of travel with Expedia</p>
+          <a href="#">Discover new places and experiences</a>
+        </div>
+
+         <div id="footerbox3b">
+
+          <div>
+            <img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg" alt="">
+          </div>
+          <div>
+            <p>Company</p>
+            <a href="#">About us</a><br>
+            <a href="#">Jobs</a><br>
+            <a href="#">List your property</a><br>
+            <a href="#">Partnerships</a><br>
+          </div>
+          <div>
+            <p>Explore</p>
+            <a href="#">India travel guide</a><br>
+            <a href="#"> Hotels in India</a><br>
+            <a href="#">Holiday rentals in India</a><br>
+            <a href="#"> Holiday packages in India</a><br>
+            <a href="#"> Domestic flights</a><br>
+            <a href="#">Car hire in India</a><br>
+            <a href="#">   All accommodation types  </a><br>
+            <a href="#">  Travel blog</a><br>
+          </div>
+          <div>
+            <p>Terms and policies</p>
+            <a href="#"> Privacy Statement</a><br>
+            <a href="#">Terms of use</a><br>
+            <a href="#">Vrbo terms and conditions</a><br>
+          </div>
+          <div>
+            <p>Help</p>
+            <a href="#"> Support</a><br>
+            <a href="#">Change or cancel your booking</a><br>
+            <a href="#">Refund process and timelines</a><br>
+            <a href="#">Book a flight using an airline credit</a><br>
+            <a href="#">International travel documents</a><br>
+          </div>
+         </div>
+        </div>
+
+        <div id="footerbox4">
+          <img src="https://images.trvl-media.com/media/content/expind/images/sg/secure.png" >
+          <p>© 2022 Expedia, Inc., an Expedia Group company / Expedia Asia Holdings Mauritius / BEX Travel Asia Pte. Ltd. All rights reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc.</p>
+
+      </div>
+     </div>
+</body>
+</html>
+
+<script src="./scripts/index.js"  type="module">
+
+
+ 
+</script>

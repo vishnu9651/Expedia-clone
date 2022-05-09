@@ -1,0 +1,509 @@
+body{
+    background-color: #f8f5f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    background-color: white;
+}
+#footerbox2{
+    background-color: white;
+}
+
+#products_container{
+    width:90%;
+    /* height:900px; */
+    margin: auto;
+    display: flex;
+    /* padding: 20px; */
+    /* background-color: antiquewhite; */
+    margin-top: 30px;
+    margin-bottom: 100px;
+    /* border: 1px solid red; */
+}
+
+#outermost_left{
+    /* padding:20px; */
+    /* background-color: blue; */
+    /* height:900px; */
+    width: 78%;
+    /* margin: auto; */
+    margin-left: 60px;
+    /* border: 1px solid black; */
+}
+#outermost_right{
+    /* padding:0px 0px 0px 20px; */
+    /* background-color:rgb(215, 57, 36) ; */
+    /* height:900px; */
+    width: 12%;
+    /* margin: auto; */
+    margin-left: 10px;
+    /* margin-left: 930px; */
+    /* border: 1px solid black; */
+  /* position: fixed; */
+}
+#outermost_right img{
+    width: 100%;
+    /* position: sticky; */
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+}
+
+#outer_up{
+    display: flex;
+    /* padding:20px; */
+    /* background-color:rgb(130, 223, 223) ; */
+    /* height:80px; */
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid red; */
+   
+}
+
+/* changes for input box start pavan */
+
+
+/* #homepagebox1_b{
+    margin-top: 20px;
+} */
+#homepagebox1_b input:hover{
+    cursor: pointer;
+  
+  }
+
+  #homepagebox1_b #inputbox1{
+    padding: 12px 110px 11px 20px;
+    /* margin-right: 8px; */
+    border-radius: 8px;
+    border: 1px solid #64666a;
+    background-color: white;
+    font-size: 16px;
+    
+  }
+  .input_icon{
+    padding-left: 25px;
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/000/552/683/small/location_pin_002.jpg") no-repeat left;
+    background-size: 20px;
+    /* margin-right: 10px; */
+    
+  }
+
+  #homepagebox1_b #inputbox2{
+    padding:10px 5px 10px 55px ;
+    /* margin-right: 8px; */
+    border-radius: 10px;
+    border: 1px solid #64666a;
+    margin-left: 8px;
+    background-color: white;
+    font-size: 16px;
+  }
+
+  #homepagebox1_b #inputbox3{
+    padding:10px 5px 10px 57px ;
+    /* margin-right: 5px; */
+    border-radius: 10px;
+    border: 1px solid #64666a;
+    margin-left: 8px;
+    background-color: white;
+    font-size: 16px;
+  }
+ 
+
+    #homepagebox1_b #inputboxbutton{
+      /* margin-top: 20px; */
+      padding: 12px 30px;
+      margin-left: 12px;
+      border-radius: 8px;
+    
+      border: none;
+      background-color: #3662d8;
+      color: white;
+      outline: none;
+      font-size: 16px;
+    }
+
+    
+  #homepagebox1_b #inputboxbutton:hover{
+    cursor: pointer;
+    background-color: #2f3aa0;
+
+  }
+
+  /* #homepagebox1_b label{
+    font-size: 12px;
+    color: #454649;
+  } */
+
+
+  .checkin_icon{
+    padding-left: 25px;
+    background: url("checkinjpg.jpg") no-repeat left;
+    background-size: 55px;
+  
+  }
+
+  .checkout_icon{
+    
+    padding-left: 25px;
+    background: url("checkout.jpg") no-repeat left;
+    background-size: 55px;
+  
+  }
+
+ #project_homepage #homepagebox1 #homepagebox1_a button:focus{
+       
+ outline: none;
+border-bottom: 2px solid;
+  }
+
+
+  
+ /* traveller style  */
+
+#stay_traveller_rooms{
+    display: flex;
+    /* border: 1px solid; */
+  }
+  
+  #travellers_div {
+    border: 1px solid black;
+    /* width: 22%; */
+    display: flex;
+    border-radius: 8px;
+    padding: 12px 5px 0px 5px;
+    font-size: 15px;
+    /* height: 25px; */
+    margin-left: 12px;
+    background-color: white;
+    line-height: 20px;
+  }
+  /* #travellers_div div{
+      border: 1px solid red; 
+     height: 20px;
+      font-size: 12px;
+  } */
+  
+  #trveller_icon{
+    margin-right: 5px;
+  }
+  
+  #travellers_display {
+    width: 23%;
+    /* border: 1px solid black; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 10px;
+    margin-left:40%;
+    margin-top: 10px;
+    z-index: 1; 
+    position: absolute;
+     background-color: white;
+  
+  }
+  #travellers_display p{
+    font-weight:500;
+  }
+  
+  #counter_travellers {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #counter {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+  
+  }
+  
+  #add_travellers,
+  #remove_travellers {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 20px;
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+  }
+  
+  #count_doneButton {
+    width: 100%;
+    color: white;
+    background-color: #3763d8;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+  
+  }
+
+
+/* changes for input box end pavan */
+
+
+
+
+
+
+
+#location_suggestion_div{
+    display: none;
+    padding-left:10px;
+    height: 200px;
+    /* background-color:white; */
+    overflow: auto;
+    position:absolute;
+    background-color: white;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 300px;
+}
+#gmap_canvas{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+#start_date{
+    height:20px;
+}
+#end_date{
+    height:20px;
+}
+#Product_search_button{
+    height:20px;
+}
+/* #location_input_div{
+    display: flex;
+} */
+
+#outer_down{
+    display: flex;
+    /* padding:20px; */
+    /* background-color:rgb(46, 128, 128) ; */
+    /* height:650px; */
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    padding: 10px 0px;
+}
+
+#outer_down_left_big{
+    /* padding:10px; */
+    /* background-color:rgb(233, 60, 175); */
+    /* height:600px; */
+    width: 22%;
+    /* margin: auto; */
+    /* border: 1px solid black; */
+}
+
+#products_map{
+    /* background-color:rgb(68, 41, 8); */
+    /* height:200px; */
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid rgb(192, 187, 187);
+    margin-bottom: 20px;
+  
+    /* border: 1px solid red; */
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+}
+
+#products_searchByProperty{
+    /* background-color:rgb(88, 87, 85); */
+    /* height:200px; */
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid black; */
+    font-size: 14px;
+}
+#products_searchByProperty input{
+    padding: 10px 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(93, 90, 90);
+}
+
+#products_filter_div{
+    /* background-color:rgb(199, 235, 99); */
+    /* height:200px; */
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+#outer_down_right_big{
+    /* padding:10px; */
+    /* background-color:rgb(203, 124, 26); */
+    /* height:600px; */
+    width: 76%;
+    /* margin: auto; */
+    margin-left: 2%;
+    /* border: 1px solid blue; */
+    justify-content: space-between;
+}
+label {
+    font-size: 14px;
+    /* line-height: -100px; */
+    /* margin-bottom: -10px; */
+}
+
+#totalProp_and_sort_div{
+    display: flex;
+    padding:0px 0px 10px 0px;
+    /* background-color:rgb(38, 203, 26); */
+    /* height:150px; */
+    width: 100%;
+    /* margin: auto; */
+    /* border: 1px solid black; */
+    justify-content: space-evenly;
+}
+#noOfPropertiesDiv{
+    /* padding:10px; */
+    /* background-color:rgb(99, 120, 98); */
+    height:80%;
+    width: 50%;
+    margin: auto;
+    /* border: 1px solid black; */
+    margin-left: -2px;
+}
+#noOfPropertiesDiv a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+#sortProductsDiv{
+    padding:10px 0px 10px 5px;
+    /* background-color:rgb(204, 35, 35); */
+    height:100%;
+    width: 40%;
+    margin: auto;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 7px;
+    margin-right: -2px;
+    margin-top: 50px;
+}
+#sortProductsDiv select{
+    border: none;
+    margin-left: 40px;
+    padding: 1px;
+    font-size: 15px;
+}
+
+#notFoundErrorImage{
+    width: 100%;
+    height: 500px;
+    border: 0.2px solid rgb(149, 144, 144);
+    
+}
+#sortID:focus{
+    outline: none;
+}
+
+#products_append_div{
+    /* padding:10px; */
+    /* background-color:rgb(18, 66, 14); */
+    /* height:400px; */
+    width: 100%;
+    /* margin: auto; */
+    
+}
+#products_append_div>div{
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   
+}
+
+#products_append_div>div img{
+    height: 100%;
+    width:200px;
+    border-top-left-radius: 10px;
+    /* margin-left: -8px; */
+    border-bottom-left-radius: 10px;
+  
+    
+}
+
+/* .totalPriceArea{
+    margin-top: 8px;
+} */
+
+.individualProductDiv{
+    display:flex;
+    /* border: 1px solid red; */
+
+}
+.individualProductDescDiv{
+    display:flex;
+    /* border: 1px solid red; */
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.individualProductOuterTextDiv{
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+}
+.individualProductOuterTextDiv h3{
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: -10px;
+}
+
+.individualProductOuterTextDiv h3+p{
+    font-size: 15px;
+    color: rgb(61, 58, 58);
+}
+.individualProductOuterTextDiv #appendp1{
+    font-size: 15px;
+    color: #435d45;
+    margin-top: 8px;
+    margin-bottom: -7px;
+}
+.individualProductOuterTextDiv #appendp2{
+    font-size: 15px;
+    color: #435d45;
+    /* margin-bottom: 20px; */
+}
+
+
+.individualProductDescRightDiv{
+    /* border: 1px solid; */
+    /* margin-top: -40px; */
+    /* display: flex;
+    justify-content: end; */
+    text-align: right;
+    /* margin-bottom: -10px; */
+
+}
+
+.individualProductDescRightDiv p{
+    margin-left: 25px;
+    margin-right: 0px;
+    font-size: 15px;
+    /* margin-bottom: -50px; */
+   
+}
+.individualProductDescRightDiv h2{
+    margin-bottom: -10px;
+    font-size: 22px;
+}
+
+.individualProductDescLeftDiv p{
+    font-size: 15px;
+}
+
+#bold_rating{
+    font-weight: bold;
+}

@@ -1,0 +1,393 @@
+/* header start */
+#header{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #caccd2;
+    padding: 20px 10px;
+    background-color: white;
+  }
+  #headerbox1{
+
+ margin-left: -150px;
+ text-align: center;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+
+  }
+  #headerbox1 img{
+    margin-right: 20px;
+    height: 28px;
+    margin-top: -5px;
+ 
+    
+  }
+
+
+  /* changes Here starts */
+  #homeButton_moreTravels{
+    width: 350px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;    border-radius: 10px;
+    line-height: 38px;
+    font-size: 15px;
+   }
+
+   #more_flights{
+    margin-left: 20px;
+       padding-left: 35px;
+          background: url("data:image/png;base64,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") no-repeat left;
+        background-size: 22px;
+  }
+  #more_stays{
+    margin-left: 20px;
+    padding-left: 35px;
+          background: url("https://thumbs.dreamstime.com/b/office-building-sign-icon-flat-style-apartment-vector-illustration-white-isolated-background-architecture-business-concept-145464372.jpg") no-repeat left;
+     background-size: 30px;
+  }
+
+  #more_packages{
+    margin-left:20px;
+    padding-left: 35px;
+          background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0xLnHdh0pGBQ63rLxpEe-f2lsVGhvdMqPd4ouGxsrNOb7k0kCDRDf2vkELQtCpB-fPRA&usqp=CAU" ) no-repeat left;
+          background-size: 30px;
+  }
+
+  #more_cars{
+    margin-left: 20px;
+    padding-left: 35px;
+          background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9tXco6g6PADhIFhIW_mUSFpDFoSFJH8ABBFhpItp7krDWbDIGCf-9WBX0jcladlj_MyM&usqp=CAU") no-repeat left;
+          background-size: 30px;
+  }
+
+  #more_things{
+    margin-left: 20px;
+    padding-left: 35px;
+          background: url("https://cdn.iconscout.com/icon/free/png-256/layer-stack-data-layers-tool-15732.png") no-repeat left;
+          background-size: 25px;
+  }
+  
+    /* changes Here ends */
+
+
+  /* #headerbox1 #select{
+  border: none;
+  margin-bottom: 10px;
+  } */
+  #headerbox2{
+    display: flex;
+   gap: 30px;
+
+    margin-right: -150px;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 500 ;
+    color: #535558;
+   
+  }
+  #headerbox2 a{
+    text-decoration: none;
+    color:#282b31;
+    font-size: 15px;
+ 
+  }
+  #headerbox2 a i{
+    margin-right: 10px;
+  }
+  #headerbox2 a:hover{
+    cursor: pointer;
+    color: #1f34e9;
+  }
+   /* header end */
+
+
+   /* dropdown */
+
+ /* chages here start */
+ #display_siginDropdown {
+  width: 24%;
+  border: 1px solid gray;
+  margin-left: 55%;
+  margin-top: 40px;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  /* padding: 20px; */
+  /* color: black; */
+  font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;;
+  border-radius: 10px;
+  /* font-size: 10px; */
+  z-index: 1; 
+  position: absolute;
+   background-color: white;
+   
+}
+#display_siginDropdown h3{
+font-size: 20px;
+margin-bottom: 20px;
+}
+#display_siginDropdown p{
+color: black;
+}
+
+
+
+/* chages here end */
+
+#sigin_button {
+    display: block;
+    width: 100%;
+    color: white;
+    padding: 8px 0px 8px 0px;
+    border-radius: 10px;
+    background-color:
+        #3763d8;
+        border: none;
+        font-size: 15px;
+        font-weight: 500;
+}
+#sigin_button:hover{
+  cursor: pointer;
+  background-color:  #2d3797;
+}
+#sigin_button >a{
+    color: white;
+    text-decoration: none;
+}
+#create_account {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px 0px 8px 0px;
+    color: #2d3797;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+   
+}
+#create_account>a{
+    color: #4e75dc;
+    text-decoration: none;
+}
+#create_account:hover {
+    background-color: #becbee;
+    border-radius: 10px;
+   
+}
+#display_siginDropdown>p{
+    color: #4b4d53;
+    cursor: pointer;
+    padding: 10px 5px 10px 5px;
+   background-color: white;
+    font-size: 14px;
+    line-height: 5px;
+ 
+}
+#display_siginDropdown>p:hover
+{
+    background-color: #becbee;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+#display_siginDropdown hr{
+  background-color:rgb(93, 84, 84);
+}
+
+#display_siginDropdown hr+p{
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+
+/* aftersigin dropdown style starts      */
+#display_aftersiginDropdown {
+  width: 24%;
+  border: 1px solid gray;
+  margin-left: 53%;
+  margin-top: 30px;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  color: 151e39;
+  /* padding: 20px; */
+  color: #151e39;
+  font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  ;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+#blue_member {
+  /* display: block; */
+  /* width: 50%; */
+  color: white;
+  /* padding: 5px 0px 5px 0px; */
+  border-radius: 20px;
+  background-color:
+      #012580;
+  border: none;
+  text-align: center;
+  padding: 5px;
+
+}
+
+#blue_member>a {
+  color: white;
+}
+
+#points_value {
+  width: 100%;
+  margin-top: -10px;
+  padding: 10px 0px 10px 0px;
+  color: #4e75dc;
+  border: none;
+  background-color: white;
+  /* margin-top: -100px; */
+  /* border: 1px solid red; */
+}
+
+#points_value>a {
+  color: #151e39;
+
+}
+
+#points_value>a:hover {
+  padding: 10px 0px 10px 0px;
+  cursor: pointer;
+  color:
+      #367be3;
+}
+
+#display_aftersiginDropdown>p {
+
+  cursor: pointer;
+  padding: 5px 0px 5px 0px;
+
+}
+
+#display_aftersiginDropdown>p:hover {
+  background-color: #becbee;
+  padding: 5px 0px 5px 0px;
+  border-radius: 10px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+#siginUserName {
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+#after_signinDropdownUpperDiv {
+  text-align: center;
+  
+  /* margin: auto; */
+ 
+
+ 
+}
+
+#signinUserEmail {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#RS {
+  
+  margin-top: 30px;
+
+}
+
+#pointsvalue_span {
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 0px 3px 0px 3px;
+  margin-left: 12px;
+
+}
+
+#after_signin {
+  padding-bottom: 5px;
+}
+#display_aftersiginDropdown>p>a{
+  text-decoration: none;
+  color: #151e39;
+}
+
+/* aftersigin dropdown style end */ 
+
+
+
+/* faizal changes */
+
+#more_travel{
+  font-size: 14px;
+  font-weight: 500;
+}
+#more_travel:hover{
+cursor: pointer;
+color: #4e75dc;
+}
+
+#more_travel_display {
+  /* border: 1px solid black; */
+  width: 350px;
+  margin-left:-550px;
+  margin-top: 30px;
+  padding: 15px 0px 15px 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  border-radius: 8px;
+ 
+}
+
+#logo_and_name {
+  display: flex;
+  /* border: 1px solid red; */
+  margin-bottom: 20px;
+
+}
+
+
+#more_travel_display img {
+  width: 30px;
+  height: 30px;
+}
+
+#name_of_travels {
+  /* border: 1px solid black; */
+  padding: 8px 0px 0px 0px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 10px;
+  color:
+      #47484c;
+}
+#name_of_travels:hover{
+  cursor: pointer;
+  color: #4778c1;
+}
+
+#moretravels_lowerDiv {
+  margin-bottom: 5px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color:
+  #47484c;
+}
+#moretravels_lowerDiv:hover
+{
+  background-color:   
+      #a9b5c7;
+      cursor: pointer;
+}
