@@ -92,7 +92,7 @@ let location= document.querySelector("#inputbox1").value;
         method: 'GET',
         headers: {
             'X-RapidAPI-Host': 'hotels4.p.rapidapi.com',
-            'X-RapidAPI-Key': 'ecd72b98e5msh241128145d87ddfp175f78jsncc939545654c'
+            'X-RapidAPI-Key': '299fe7670bmsh215a4489f052bedp1694dcjsn8d2502d0a4ad'
         }
     };
     
@@ -147,7 +147,7 @@ let propertyList = async (destID)=>{
         method: 'GET',
         headers: {
             'X-RapidAPI-Host': 'hotels4.p.rapidapi.com',
-            'X-RapidAPI-Key': 'ecd72b98e5msh241128145d87ddfp175f78jsncc939545654c'
+            'X-RapidAPI-Key': '299fe7670bmsh215a4489f052bedp1694dcjsn8d2502d0a4ad'
         }
     };
 
