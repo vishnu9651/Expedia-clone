@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/header.css">
+    <title>Document</title>
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
+    <style>
+        #checkout{
+        /* border: 1px solid; */
+            display:flex;
+            /* height:2400px; */
+            width: 90%;
+            
+       
+        }
+        #notice{ 
+            background-color: white;
+            line-height: 1mm;
+            /* border:1px solid red; */
+            margin-bottom: 10px;;
+          display: flex;
+          padding-top: 10px;
+          width:91.3%;
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+        }
+        #cancel{
+            padding: 10px;
+        
+        }
+        #checkoutLeft{
+            background-color: white;
+            /* border:1px solid red; */
+            padding:10px;
+            margin-right:10px;
+            /* height:2100px; */
+            width:155%
+        }
+        #reward{
+            background-color: white;
+            margin-right:25px;
+            
+            /* height:20px; */
+            width: 80%;
+        }
+        #customerDetails{
+           
+  background-color: white;
+            margin-right:22px;
+            
+            /* height:350px; */
+            width:80%;
+        }
+        
+        #paymentDetails{
+            margin:10px;
+    /* border: 1px solid red; */
+            /* height:600px; */
+            width: 80%;
+        }
+        p{
+            color:gray;
+        font-size:small
+        }
+        
+        #managebooking{
+            /* border:1px solid red; */
+            margin:10px;
+            padding-left:30px;
+    font-style:inherit ;
+    font-size: medium;
+            /* height:550px; */
+            width:100%;
+            
+            line-height: 5mm;
+        }
+        
+        #importentInfo{
+            margin-left:10px;
+        font-style:inherit;
+        color:grey;
+        font-size: small;
+        line-height: 6mm;
+            /* height:450px; */
+            width:95%
+        }
+        
+        #checkoutRight{
+        
+        /* height:800px; */
+        width:80%;
+        margin-left:10px;
+        }
+        #cartDetails{
+            background-color: white;
+            margin:auto;
+        font-size:small;
+        line-height: 4mm;
+            /* height:380px; */
+        width:100%;
+        padding: 7px;
+        padding-bottom: 35px;
+        
+    padding-left:-5px ;}
+        #cartDetails img{
+            /* border:1px solid red; */
+            width: 100%;
+            margin: auto;
+            border-radius: 4px;
+            
+        }
+        #PriceDetails{
+            background-color: white;
+            margin:auto;
+        margin-top: 25px;;
+            padding:7px;
+            /* height:380px; */
+        width:100%;
+        }
+        #name{display :flex;
+            justify-content: space-around;
+            margin-left: -45px;
+            
+
+        }
+        .line{
+    width: 350px;
+    border: 1px solid lightgray;
+    position: absolute;
+    }
+    #footer{
+    
+        /* height:100px; */
+        width:500px;
+        margin-left: 500px;
+        text-align: center;
+        line-height: 5mm;
+    }
+    img{
+        margin:-5px;
+    }
+    input{
+        /* height:25px; */
+        width:200px;
+        border-radius: 8px;
+        border:1px solid black;
+        font-size: 15px;
+        padding: 10px;
+    }
+    #checkbox{
+        margin-left:0px;
+        /* height:12px; */
+        margin-right:-85px;
+        
+    }
+    button{
+        background-color:rgb(255,193,51);
+        height:40px;
+        width:200px;
+        border-radius: 5px;
+        border-width: .5px;
+        margin-left: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    #cancel{
+        margin-right: 15px;
+    }
+    i{
+        margin-right: 10px;
+        height:25px;
+        width:25px;
+    }
+    #code{
+        height: 30px;
+        background-color: rgb(231, 230, 230);
+        margin-left:30px;
+        border-radius: 3px;;
+    }
+    #check{
+        margin-left:-60px;
+
+    }
+    #container{
+        /* border:1px solid red; */
+        width:90%;
+        /* height:2250px; */
+        /* margin-left:50px; */
+        padding: 50px;
+        margin: auto;
+        margin-top:-50px ;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #cartDetails div{
+        width:100%
+    }
+
+    </style>
+</head>
+
+<body style="background-color:rgb(237,237,237);">
+
+    <div id="header"></div>
+    <div id="container">
+    <h1> Review and book</h1>
+    <div id="notice"> 
+        <div><img id="cancel" src="https://a.travel-assets.com/travel-assets-manager/03052020/illustration__free__cancellation__sml.svg"/>
+        </div>
+        <div>
+            <h3 > Free cancellation before Tue, 17 May, 23:59 (property local time)</h3>
+        <p>You can change or cancel this stay if plans change. Because flexibility matters.</p>
+    </div>
+    </div>
+    
+    <div id="checkout">
+        <div id="checkoutLeft">
+       
+ <div id="reward"> <i class="fa-solid fa-lock"></i><a href="Signin.html">   Sign in to earn 64 Expedia reward point </a></div>
+            <div id="customerDetails">
+               <p><i class="fa-solid fa-user"> </i>  <span style="font-weight:bold"> Room 1:</span><span>2 Adults 2 Twin Beds Non-smoking</span></p>
+               <p  style="color:green;margin-left: 40px;">&#10004;Free parking  &#10004;Free internet</p>
+               <div id="name">
+               <div> 
+               <h3 style="margin-left: -10px;">First name*</h3>
+                <input id="firstname" style="margin-left: -10px;" placeholder="(e.g. Jhon"/></div> 
+            <div><h3 style="margin-left: -150px;">Surname*</h3>
+            <input id="surname" style="margin-left: -150px;" placeholder="(e.g. Smith"/></div>
+            </div>
+
+           <h3 style="margin-left:55px;"> Mobile phone number*</h3>
+           <lable> <select id="code" style="margin-left: 50px;"><option> india +91</option>
+            <option>AFG +93</option></select> <input type="number" id="mobile" placeholder="So the property can reach you"/></lable>
+            <p id="check">
+            <input type="checkbox" id="checkbox" style="margin-left: 20px;" value="Receive text alerts about this trip(free of charge)"/><lable> Receive text alerts about this trip (free of charge).</lable>
+        </p>
+            <p></p>
+            <a href="#" style="margin-left: 50px;">Special Requests (optional)<i  class="fa-solid fa-angles-down"></i ></a>
+            </div>
+            <div id="paymentDetails">
+                <p style="color:green"><i style="color:black"class="fa-regular fa-credit-card"></i>&#10004;We use secure transmission  &#10004;We protect your personal information</p>
+                <p> </p>
+                <img style=" height:20px;margin-left:40px"src="https://a.travel-assets.com/dms-svg/payments/cards-cc_master_card.svg"/>
+                <img style=" height:20px;margin-left:10px"src="https://a.travel-assets.com/dms-svg/payments/cards-cc_american_express.svg"/>
+                <img style=" height:20px;margin-left:10px"src="https://a.travel-assets.com/dms-svg/payments/cards-cc_visa.svg"/>
+                <img style=" height:20px;margin-left:10px"src="https://a.travel-assets.com/dms-svg/payments/cards-cc_visa_electron.svg"/>
+                <div id="card details">
+                <h4 style="margin-left:40px"> Name On Card*</h4>
+                <input style="margin-left:40px;width:300px"type="text" id="nameoncard" placeholder="Enter Name"/>
+                <h4 style="margin-left:40px;">Debit/Credit card number*</h4>
+                <input style="margin-left:40px;" type="number" id="cardNo" placeholder=" Enter Card no."/>
+                <p style="margin-left:40px;">Expiry Date*</p>
+                <select style="margin-left:40px;" id="month" >
+                    <option selected disabled value="">Month</option>
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+                <select id="year">
+                    <option selected disabled value="">Year</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                </select>
+                <p style="margin-left:40px;">Security Code*</p>
+                <input style="margin-left:40px;width:60px; height: 10px; background-color: white;" id="codecvv" type="password" placeholder="CVV"/>
+                <p style="margin-left:40px;" >Billing country/territory</p>
+                <select style="margin-left:40px; height:30px;width:80px" id="country" name="country">
+                    <option value="India">India</option>
+                    <option value="Afganistan">Afghanistan</option>
+                    <option value="Albania">Albania</option>
+                    <option value="Algeria">Algeria</option>
+                    <option value="American Samoa">American Samoa</option>
+                    <option value="Andorra">Andorra</option>
+                    <option value="Angola">Angola</option>
+                    <option value="Anguilla">Anguilla</option>
+                    <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Armenia">Armenia</option>
+                    <option value="Aruba">Aruba</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Austria">Austria</option>
+                    <option value="Azerbaijan">Azerbaijan</option>
+                    <option value="Bahamas">Bahamas</option>
+                    <option value="Bahrain">Bahrain</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Barbados">Barbados</option>
+                    <option value="Belarus">Belarus</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="Belize">Belize</option>
+                    <option value="Benin">Benin</option>
+                    <option value="Bermuda">Bermuda</option>
+                    <option value="Bhutan">Bhutan</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Bonaire">Bonaire</option>
+                    <option value="Bosnia & Herzegovina">Bosnia & Herzegovina</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="British Indian Ocean Ter">British Indian Ocean Ter</option>
+                    <option value="Brunei">Brunei</option>
+                    <option value="Bulgaria">Bulgaria</option>
+                    <option value="Burkina Faso">Burkina Faso</option>
+                    <option value="Burundi">Burundi</option>
+                    <option value="Cambodia">Cambodia</option>
+                    <option value="Cameroon">Cameroon</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Canary Islands">Canary Islands</option>
+                    <option value="Cape Verde">Cape Verde</option>
+                    <option value="Cayman Islands">Cayman Islands</option>
+                    <option value="Central African Republic">Central African Republic</option>
+                    <option value="Chad">Chad</option>
+                    <option value="Channel Islands">Channel Islands</option>
+                    <option value="Chile">Chile</option>
+                    <option value="China">China</option>
+                    <option value="Christmas Island">Christmas Island</option>
+                    <option value="Cocos Island">Cocos Island</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Comoros">Comoros</option>
+                    <option value="Congo">Congo</option>
+                    <option value="Cook Islands">Cook Islands</option>
+                    <option value="Costa Rica">Costa Rica</option>
+                    <option value="Cote DIvoire">Cote DIvoire</option>
+                    <option value="Croatia">Croatia</option>
+                    <option value="Cuba">Cuba</option>
+                    <option value="Curaco">Curacao</option>
+                    <option value="Cyprus">Cyprus</option>
+                    <option value="Czech Republic">Czech Republic</option>
+                    <option value="Denmark">Denmark</option>
+                    <option value="Djibouti">Djibouti</option>
+                    <option value="Dominica">Dominica</option>
+                    <option value="Dominican Republic">Dominican Republic</option>
+                    <option value="East Timor">East Timor</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="El Salvador">El Salvador</option>
+                    <option value="Equatorial Guinea">Equatorial Guinea</option>
+                    <option value="Eritrea">Eritrea</option>
+                    <option value="Estonia">Estonia</option>
+                    <option value="Ethiopia">Ethiopia</option>
+                    <option value="Falkland Islands">Falkland Islands</option>
+                    <option value="Faroe Islands">Faroe Islands</option>
+                    <option value="Fiji">Fiji</option>
+                    <option value="Finland">Finland</option>
+                    <option value="France">France</option>
+                    <option value="French Guiana">French Guiana</option>
+                    <option value="French Polynesia">French Polynesia</option>
+                    <option value="French Southern Ter">French Southern Ter</option>
+                    <option value="Gabon">Gabon</option>
+                    <option value="Gambia">Gambia</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Gibraltar">Gibraltar</option>
+                    <option value="Great Britain">Great Britain</option>
+                    <option value="Greece">Greece</option>
+                    <option value="Greenland">Greenland</option>
+                    <option value="Grenada">Grenada</option>
+                    <option value="Guadeloupe">Guadeloupe</option>
+                    <option value="Guam">Guam</option>
+                    <option value="Guatemala">Guatemala</option>
+                    <option value="Guinea">Guinea</option>
+                    <option value="Guyana">Guyana</option>
+                    <option value="Haiti">Haiti</option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Honduras">Honduras</option>
+                    <option value="Hong Kong">Hong Kong</option>
+                    <option value="Hungary">Hungary</option>
+                    <option value="Iceland">Iceland</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="India">India</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Iraq">Iraq</option>
+                    <option value="Ireland">Ireland</option>
+                    <option value="Isle of Man">Isle of Man</option>
+                    <option value="Israel">Israel</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Jamaica">Jamaica</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Jordan">Jordan</option>
+                    <option value="Kazakhstan">Kazakhstan</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Kiribati">Kiribati</option>
+                    <option value="Korea North">Korea North</option>
+                    <option value="Korea Sout">Korea South</option>
+                    <option value="Kuwait">Kuwait</option>
+                    <option value="Kyrgyzstan">Kyrgyzstan</option>
+                    <option value="Laos">Laos</option>
+                    <option value="Latvia">Latvia</option>
+                    <option value="Lebanon">Lebanon</option>
+                    <option value="Lesotho">Lesotho</option>
+                    <option value="Liberia">Liberia</option>
+                    <option value="Libya">Libya</option>
+                    <option value="Liechtenstein">Liechtenstein</option>
+                    <option value="Lithuania">Lithuania</option>
+                    <option value="Luxembourg">Luxembourg</option>
+                    <option value="Macau">Macau</option>
+                    <option value="Macedonia">Macedonia</option>
+                    <option value="Madagascar">Madagascar</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Malawi">Malawi</option>
+                    <option value="Maldives">Maldives</option>
+                    <option value="Mali">Mali</option>
+                    <option value="Malta">Malta</option>
+                    <option value="Marshall Islands">Marshall Islands</option>
+                    <option value="Martinique">Martinique</option>
+                    <option value="Mauritania">Mauritania</option>
+                    <option value="Mauritius">Mauritius</option>
+                    <option value="Mayotte">Mayotte</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Midway Islands">Midway Islands</option>
+                    <option value="Moldova">Moldova</option>
+                    <option value="Monaco">Monaco</option>
+                    <option value="Mongolia">Mongolia</option>
+                    <option value="Montserrat">Montserrat</option>
+                    <option value="Morocco">Morocco</option>
+                    <option value="Mozambique">Mozambique</option>
+                    <option value="Myanmar">Myanmar</option>
+                    <option value="Nambia">Nambia</option>
+                    <option value="Nauru">Nauru</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Netherland Antilles">Netherland Antilles</option>
+                    <option value="Netherlands">Netherlands (Holland, Europe)</option>
+                    <option value="Nevis">Nevis</option>
+                    <option value="New Caledonia">New Caledonia</option>
+                    <option value="New Zealand">New Zealand</option>
+                    <option value="Nicaragua">Nicaragua</option>
+                    <option value="Niger">Niger</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Niue">Niue</option>
+                    <option value="Norfolk Island">Norfolk Island</option>
+                    <option value="Norway">Norway</option>
+                    <option value="Oman">Oman</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Palau Island">Palau Island</option>
+                    <option value="Palestine">Palestine</option>
+                    <option value="Panama">Panama</option>
+                    <option value="Papua New Guinea">Papua New Guinea</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Phillipines">Philippines</option>
+                    <option value="Pitcairn Island">Pitcairn Island</option>
+                    <option value="Poland">Poland</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Puerto Rico">Puerto Rico</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="Republic of Montenegro">Republic of Montenegro</option>
+                    <option value="Republic of Serbia">Republic of Serbia</option>
+                    <option value="Reunion">Reunion</option>
+                    <option value="Romania">Romania</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Rwanda">Rwanda</option>
+                    <option value="St Barthelemy">St Barthelemy</option>
+                    <option value="St Eustatius">St Eustatius</option>
+                    <option value="St Helena">St Helena</option>
+                    <option value="St Kitts-Nevis">St Kitts-Nevis</option>
+                    <option value="St Lucia">St Lucia</option>
+                    <option value="St Maarten">St Maarten</option>
+                    <option value="St Pierre & Miquelon">St Pierre & Miquelon</option>
+                    <option value="St Vincent & Grenadines">St Vincent & Grenadines</option>
+                    <option value="Saipan">Saipan</option>
+                    <option value="Samoa">Samoa</option>
+                    <option value="Samoa American">Samoa American</option>
+                    <option value="San Marino">San Marino</option>
+                    <option value="Sao Tome & Principe">Sao Tome & Principe</option>
+                    <option value="Saudi Arabia">Saudi Arabia</option>
+                    <option value="Senegal">Senegal</option>
+                    <option value="Seychelles">Seychelles</option>
+                    <option value="Sierra Leone">Sierra Leone</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Slovakia">Slovakia</option>
+                    <option value="Slovenia">Slovenia</option>
+                    <option value="Solomon Islands">Solomon Islands</option>
+                    <option value="Somalia">Somalia</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="Sudan">Sudan</option>
+                    <option value="Suriname">Suriname</option>
+                    <option value="Swaziland">Swaziland</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="Syria">Syria</option>
+                    <option value="Tahiti">Tahiti</option>
+                    <option value="Taiwan">Taiwan</option>
+                    <option value="Tajikistan">Tajikistan</option>
+                    <option value="Tanzania">Tanzania</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="Togo">Togo</option>
+                    <option value="Tokelau">Tokelau</option>
+                    <option value="Tonga">Tonga</option>
+                    <option value="Trinidad & Tobago">Trinidad & Tobago</option>
+                    <option value="Tunisia">Tunisia</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Turkmenistan">Turkmenistan</option>
+                    <option value="Turks & Caicos Is">Turks & Caicos Is</option>
+                    <option value="Tuvalu">Tuvalu</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="United Arab Erimates">United Arab Emirates</option>
+                    <option value="United States of America">United States of America</option>
+                    <option value="Uraguay">Uruguay</option>
+                    <option value="Uzbekistan">Uzbekistan</option>
+                    <option value="Vanuatu">Vanuatu</option>
+                    <option value="Vatican City State">Vatican City State</option>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Vietnam">Vietnam</option>
+                    <option value="Virgin Islands (Brit)">Virgin Islands (Brit)</option>
+                    <option value="Virgin Islands (USA)">Virgin Islands (USA)</option>
+                    <option value="Wake Island">Wake Island</option>
+                    <option value="Wallis & Futana Is">Wallis & Futana Is</option>
+                    <option value="Yemen">Yemen</option>
+                    <option value="Zaire">Zaire</option>
+                    <option value="Zambia">Zambia</option>
+                    <option value="Zimbabwe">Zimbabwe</option>
+                 </select>       
+                 <h3 style="margin-left:40px;">PAN Number</h3>
+                 <input id="pan" style="margin-left:40px;" placeholder="Enter pan no."/>
+            </div>
+            </div>
+            <div id="managebooking">
+                <h2>Manage your booking</h2>
+                <div class="line"></div>
+                
+<h3 style="padding-top: 10px;">Confirmation email</h3>
+<p>Please enter the email address where you would like to receive your confirmation.</p>
+<p>Email address*</p>
+<input id="email"/>
+<p></p>
+<input type="checkbox"style="margin-left:-90px" id="checkbox"/><lable>Please send me Expedia emails with travel deals, special offers and other information.</lable>
+<p></p>
+<div class="line"></div>
+<p></p>
+                <h3 style="padding-top: 10px;">Create an account</h3>
+                <p1 style="color:green">&#10004;  Earn points for free travel  &#10004; Save with Member Prices  &#10004;Easily access your itinerarie</p1>
+                <p>Enter a password to create an account using the email address above.</p>
+                
+                <p>Create password</p>
+                <input type="password" placeholder="6-30 charecter ,no spaces"/>
+                <p></p>
+                
+                <p>Confirm password</p>
+                <input type="password"/>
+                <p>By creating an account,I agree to the<a href="Terms of Use",>Terms of Use</a><a href="Privacy Policy">Privacy Policy</a>,and <a href="Expedia Rewards Terms and Conditions">Expedia Rewards Terms and Conditions</a></p>
+            </div>
+            
+            <div id="importentInfo">
+                <h3 style="color:black">Important information about your booking</h3>
+                <ul>
+                    <li>Cancellations or changes made between 16 May 2022 15:30 and 19 May 2022 01:30 (property local time) are subject to a Rs4,907.08 property fee.</li>
+<li>Cancellations or changes made after 01:30 (property local time) on 19 May 2022 or no-shows are subject to a property fee equal to 100% of the total amount paid for the reservation.</li>
+<li>Front desk staff will greet guests on arrival.</li> 
+<p></p>
+<p></p>
+By clicking on the button below, I acknowledge that I have reviewed the <a href="">Privacy Statement</a>. and <a href="">Government Travel Advice </a>. and have reviewed and accept the <a href=""> Rules & Restrictions</a>. and <a href=""> Terms of Use Opens </a>..
+We use secure transmission and encrypted storage to protect your personal information.This payment will be processed in India. This does not apply when the travel provider (airline/hotel/rail, etc.) processes your payment.
+
+</ul>
+<p style="color:green;margin-left: 20px;">&#10004; Change of plans? No problem. You can cancel for free before Tue, 17 May</p>
+<button id="CompleteBook" >Complete Booking ></button>
+<p></p>
+<i style="font-size:24px" class="fa">&#xf023;</i> We use secure transmission and encrypted storage to protect your personal information.
+<p style="margin-left:35px">
+This payment will be processed in India. This does not apply when the travel provider (airline/hotel/rail, etc.) processes your payment.
+</p></div>
+        </div>
+        <div id="checkoutRight">
+            <div id="cartDetails">
+               <img id="image"/>
+               <div></div>
+                <h3></h3>
+                <h3></h3>
+                
+            </div>
+            
+            <div id="PriceDetails">
+                <h2>Price details</h2>
+<div style="display:flex;text-align:center;justify-content:space-between;">
+<div style=" padding-top:15px;">1 room x 1 night</div>
+<div id="price" ></div>
+
+</div>
+<div style="display:flex ;justify-content:space-between;text-align:center ">
+    <div><p>Taxes</div>
+    <div id="tax"></div>
+    
+</div>
+<div class="line"></div>
+<div id="total" style="display:flex;justify-content: space-between;">
+    <div><h4>Total</h4></div>
+    <div id="total"></div>
+    <p></p>
+</div>
+<div style="display:flex; justify-content: space-between;">
+    <div><p style="color:green">Pay Now</p></div>
+    <div><p style="color:green">Rs00.00</p></div>
+</div>
+<div  style="display:flex; justify-content: space-between;">
+    <div><p>Pay at property</p></div>
+    <div id="property"></div>
+</div>
+</div>
+<p></p>
+<div id="tax"style="display:flex;justify-content: space-between;">
+    <div></div>
+
+<div></div>
+
+</div>
+<p></p>
+
+<div id="tot" style="display:flex;justify-content: space-between;">
+    <div ><h3></h3> </div>
+    <div></div>
+</div> 
+<p></p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+    <div id="footer">
+        <a href="">[+] Tell us what you think</a>
+<p>Privacy policy     terms of use</p>
+<p>© 2022 Expedia, Inc, an Expedia Group Company. / Expedia Asia Holdings Mauritius / BEX Travel Asia Pte Ltd. All rights reserved.
+</p>
+<img src="https://images.trvl-media.com/media/content/expind/images/sg/secure.png">
+<p></p>
+<img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg">
+    </div>
+
+</div>
+    
+</body>
+</html>
+<script src="./scripts/checkout.js" type="module">
+//     var data={
+//         img:"https://images.trvl-media.com/hotels/20000000/19430000/19420400/19420372/9058327b_l.jpg",
+//     reviews:"Reviews 4/5",
+//     roomQty:"1 Room:Twin Guest Room ",
+//     checkIn:"CheckIn: Fri, 20 May",
+//     checkOut:"Check-out: Sat, 21 May",
+    
+    
+// }
+// var hotelInfo=JSON.parse(localStorage.getItem("detail"))||[]
+// let cart=document.getElementById("cartDetails")
+// var div=document.createElement("div")
+// var img=document.createElement("img")
+// img.src=data.img
+// let reviews=document.createElement("h4")
+// reviews.innerText=data.reviews
+// let roomQty=document.createElement("h4")
+// roomQty.innerText=data.roomQty
+// let checkIn=document.createElement("h4")
+// checkIn.innerText=data.checkIn
+// let checkOut=document.createElement("h4")
+// checkOut.innerText=data.checkOut
+
+// div.append(img,reviews,roomQty,checkIn,checkOut)
+
+
+//cartDetails.append(div)
+
+</script>
