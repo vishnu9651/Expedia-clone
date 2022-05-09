@@ -1,0 +1,113 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#topLogo {
+    border: 1px solid rgb(218, 207, 207);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: auto;
+    text-align: center;
+    padding: -40px 0px -40px 0px;
+    
+}
+
+#topLogo>img {
+    height: 30px;
+    /* width: 50px; */
+}
+
+#detailContainer {
+    /* border: 1px solid black; */
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    color: #343b53;
+}
+
+#email,
+#name,
+#surname,
+#password,
+#id_password {
+    width: 100%;
+    padding: 15px 0px 15px 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+
+#chechbox1 {
+    margin-top: 20px;
+    color: #343b53;
+    font-size: 16px;
+
+}
+.beforTandC>p
+{
+color: #343b53;
+}
+
+
+#tAndC {
+    color:
+        #367be3;
+}
+
+#signinId {
+    padding: 10px 167px 10px 167px;
+    border-radius: 10px;
+    color: white;
+    background-color: #3662d8;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#SigninSpan {
+    color:
+        #367be3;
+}
+
+#signinDiv {
+    text-align: center;
+}
+
+#orContinue {
+    text-align: center;
+}
+
+#logoDiv {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    width: 50%;
+}
+
+#logoDiv>div>img {
+    /* width: 100%; */
+    /* display: flex; */
+    width: 20px;
+
+
+}
+
+#forgetpassword {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+#forgetpassword>a {
+    color:
+        #367be3;
+}
+a{
+text-decoration: none;
+}
