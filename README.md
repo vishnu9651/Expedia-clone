@@ -23,9 +23,9 @@
 
 ![2022-04-02 (5)]()
 
-### Sign in Page:
+### Create Account Page:
 
-2.It is for new users one can sign up for ordering, And can enjoy the services of Nykaa. Signup contains the registration of email, mobile number, and setting of a password.
+2.It is for new users one can Create Account for Booking Hotels,flights,Cars etc, And can enjoy the services of Expedia Travel. Create Account  contains the registration of email, name,surename and setting of a password.Password creation is as per standard approach. Minimum length should be of Eight Charactors,One capital letter,one aplha numeric key and one should be a number. Acoordingly strength of the password is shown dynamically in different colors like red,blue and green as shown in the given below images.
    
 ![2022-04-02 (5)]()
 
