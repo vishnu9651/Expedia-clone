@@ -1,0 +1,30 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#topLogo {
+    border: 1px solid rgb(218, 207, 207);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: auto;
+    text-align: center;
+    padding: -40px 0px -40px 0px;
+}
+
+#topLogo>img {
+    height: 30px;
+  
+}
+
+
+
+#welcomeConatiner {
+   
+    margin: auto;
+  
+    width: 25%;
+    margin-top: 30px;
+    color: #343b53;
+}

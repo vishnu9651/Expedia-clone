@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+    <link rel="stylesheet" href="./styles/signin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- //for password eye -->
+    <style>
+
+        /* #topLogo {
+            border: 1px solid rgb(218, 207, 207);
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            margin: auto;
+            text-align: center;
+            padding: -40px 0px -40px 0px;
+            
+        }
+
+        #topLogo>img {
+            height: 30px;
+          
+        }
+
+        #detailContainer {
+           
+            width: 400px;
+            margin: auto;
+            margin-top: 40px;
+            color: #343b53;
+        }
+
+        #email,
+        #name,
+        #surname,
+        #password,
+        #id_password {
+            width: 100%;
+            padding: 15px 0px 15px 5px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 15px;
+            border: 1px solid gray;
+        }
+
+        #chechbox1 {
+            margin-top: 20px;
+            color: #343b53;
+            font-size: 16px;
+
+        }
+.beforTandC>p
+{
+    color: #343b53;
+}
+
+
+        #tAndC {
+            color:
+                #367be3;
+        }
+
+        #signinId {
+            padding: 10px 167px 10px 167px;
+            border-radius: 10px;
+            color: white;
+            background-color: #3662d8;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #SigninSpan {
+            color:
+                #367be3;
+        }
+
+        #signinDiv {
+            text-align: center;
+        }
+
+        #orContinue {
+            text-align: center;
+        }
+
+        #logoDiv {
+            margin: auto;
+            display: flex;
+            text-align: center;
+            justify-content: space-evenly;
+          
+            width: 50%;
+        }
+
+        #logoDiv>div>img {
+           
+            width: 20px;
+
+
+        }
+
+        #forgetpassword {
+            text-align: center;
+            margin-top: 20px;
+
+        }
+
+        #forgetpassword>a {
+            color:
+                #367be3;
+        }
+        a{
+text-decoration: none;
+        }
+         */
+        
+    </style>
+</head>
+
+<body>
+    <div id="topLogo">
+        <img src="https://www.expedia.co.in/_dms/interstitial/logo.svg?locale=en_GB&siteid=27" alt="">
+    </div>
+
+
+    <div id="detailContainer">
+        <div>
+            <h1>Sign in</h1>
+        </div>
+
+<div id="incorrect_match">
+
+</div>
+
+        <div>
+
+            <input type="text" name="" id="email" placeholder="Email Adress">
+        </div>
+
+
+
+        <div>
+            <input type="password" name="password" autocomplete="current-password" required="" id="id_password"
+                placeholder="Password">
+            <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>
+            <i></i>
+        </div>
+
+        <div>
+            <input type="checkbox" name="" id=""><label for="">Keep me signed in</label>
+            <div id="chechbox1">Selecting this checkbox will keep you signed into your account on this device until you
+                sign out. Do not select this on shared devices.</div>
+        </div>
+
+
+        <div class="beforTandC">
+
+            <p>
+
+                By signing in, I agree to the Expedia<span id="tAndC"> Terms and Conditions, Privacy Statement and
+                    Expedia Rewards Terms and Conditions.</span>
+            </p>
+        </div>
+
+        <div>
+
+            <button id="signinId" onclick="signinFunction();">Sign in</button>
+        </div>
+
+        <div id="forgetpassword">
+            <a href="">Forget Password</a>
+        </div>
+
+
+
+        <div id="signinDiv">
+            <p>Don't have an account?<span id="SigninSpan"><a href="create account.html">Create one</a> </span> </p>
+        </div>
+
+        <div id="orContinue">
+            <p>or continue with</p>
+        </div>
+        <div id="logoDiv">
+            <div>
+                <img src="https://a.travel-assets.com/egds/marks/apple.svg" alt="">
+            </div>
+
+            <div>
+                <img src="https://a.travel-assets.com/egds/marks/facebook.svg" alt="">
+            </div>
+
+            <div>
+
+                <img src="https://a.travel-assets.com/egds/marks/google.svg" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+<script src="./scripts/signin.js"></script>
+<!-- //     //for password eye
+//     const togglePassword = document.querySelector('#togglePassword');
+//     const password = document.querySelector('#id_password');
+
+//     togglePassword.addEventListener('click', function (e) {
+//         // toggle the type attribute
+//         const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+//         password.setAttribute('type', type);
+//         // toggle the eye slash icon
+//         this.classList.toggle('fa-eye-slash');
+//     });
+// //eye end
+
+
+// //for sigin
+// let userDetails = JSON.parse(localStorage.getItem("userDetails"))
+// console.log(userDetails)
+
+// let  signinFunction = () =>
+// {
+//     console.log("in")
+//     let email = document.getElementById("email").value 
+//     let Passwoord = document.getElementById("id_password").value 
+//     console.log(email)
+//     let flag = false;
+
+//     for(var i=0;i<userDetails.length;i++)
+//     {
+//         if(email === userDetails[i].Email && Passwoord === userDetails[i].Password)
+//         {
+//             flag = true
+//         }
+//     }
+//     if(flag === true)
+//     {
+//         alert("login successful")
+//     }
+//     else{
+//         alert("login failed")
+//     }
+    
+// } -->
+

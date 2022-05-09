@@ -1,0 +1,171 @@
+  /* alert box style start */
+
+  body{
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  #confirm {
+    display: none;
+    background-color: teal;
+   
+    color: white;
+    border: 1px solid #aaa;
+    position: fixed;
+    width: 350px;
+  
+    left: 50%;
+    margin-left: -100px;
+    padding: 30px 20px 20px 30px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: -450px;
+    border-radius: 10px;
+}
+
+.yes {
+    background-color: rgb(243, 142, 142);
+    display: inline-block;
+    border-radius: 12px;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    width: 60px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#confirm .message {
+    text-align: left;
+}
+
+/* aler box style end */
+
+#topLogo {
+    border: 1px solid rgb(218, 207, 207);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: auto;
+    text-align: center;
+    padding: 8px 0px 8px 0px;
+}
+
+#topLogo>img {
+    height: 30px;
+    
+}
+
+#detailContainer {
+   
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    color: #292e3e;
+    height: auto;
+}
+
+#detailContainer h2{
+    margin-bottom: 20px;
+}
+
+#email,
+#name,
+#surname,
+#password,
+#id_password {
+    width: 100%;
+    padding: 10px 0px 10px 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+
+#togglePassword {
+    padding: 5px 5px 5px 0px;
+ 
+    margin-top: 7px;
+    color: black;
+}
+
+#chechbox1 {
+    margin-top: 10px;
+}
+
+#checkbox2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+#tickheckbox1,#tickheckbox2
+{
+    margin-right: 10px;
+}
+
+#tAndC {
+    color:
+        #367be3;
+}
+
+#buttonCreateAccount {
+    padding: 10px 167px 10px 167px;
+    border-radius: 10px;
+    color: white;
+    background-color: #3662d8;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#SigninSpan {
+    color:
+        #367be3;
+}
+
+#signinDiv {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#orContinue {
+    text-align: center;
+}
+
+#logoDiv {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+  
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#logoDiv>div>img {
+  
+    width: 20px;
+
+
+}
+
+/* //password strength style start */
+
+.passwordInput {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.displayBadge {
+    margin-top: 5%;
+    display: none;
+    text-align: center;
+}
+
+#StrengthDisp {
+    margin-bottom: 20px;
+    padding: 15px;
+    margin-top: 0px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* //password strength style end */
