@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Hotel Information</title>
+    <link rel="stylesheet" href="./styles/hotel_info.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+<body>
+
+    <div id="header"></div>
+
+    <div id="hotel_info_page">
+        <div id="hotel_info_div">
+            <div id="go_back_link"><i class="fa-solid fa-arrow-left" style="font-size: 15px; margin-top: 2px;"></i><a href="">See all properties</a></div>
+            <div id="hotel_images">
+                <div id="hotel_images_large">
+                    <img src="" alt="" id="large_hotel_image">
+                </div>
+                <div id="hotel_images_small">
+                    <img src="" alt="" id="small_hotel_image_1">
+                    <img src="" id="small_hotel_image_2" alt="">
+                </div>
+                <div id="hotel_images_small">
+                    <img id="small_hotel_image_3" src="" alt="">
+                    <img id="small_hotel_image_4" src="" alt="">
+                </div>
+            </div>
+            <div id="reserve_button_section">
+                <div id="left_side_button">
+                    <a href="#hotel_info_div"><button id="button1">Overview</button></a>
+                    <a href="#rooms_section"><button id="button2">Rooms</button></a>
+                    <a href="#about_area_div"><button id="button3">Location</button></a>
+                    <a href="#below_about_property"><button id="button4">Amenities</button></a>
+                    <a href="#below_amenities"><button id="button5">Policies</button></a>
+                    <a href="#review_div"><button id="button6">Reviews</button></a>
+                </div>
+                <div>
+                    <a href="#check_availability"><button id="reserve_button">Reserve a room</button></a>
+                </div> 
+            </div>
+            <div id="hotel_details">
+                <div id="hotel_amenities">
+                        <h1 id="hotel_name"></h1>
+                        <div>
+                            <i id="star_icon" class="fa-solid fa-star"></i>
+                            <i id="star_icon" class="fa-solid fa-star"></i>
+                            <i id="star_icon" class="fa-solid fa-star"></i>
+                            <i id="star_icon" class="fa-solid fa-star"></i>
+                            <i id="star_icon" class="fa-solid fa-star"></i>
+                        </div>
+                        <h2 id="hotel_rating"></h2>
+                        <p id="cleanliness_score_text"></p>
+                        <a href="" id="right_arrow_link" class="top_review_text"><i id="angle_right" class="fa-solid fa-angle-right"></i></a>
+                        <h2>Popular amenities</h2>
+                        <div id="popular_amenities">
+                            <div>
+                                <p><i id="para_gap" class="fa-solid fa-person-swimming"></i>Pool</p>
+                                <p><i id="para_gap" class="fa-solid fa-wifi"></i>Free Wifi</p>
+                                <p><i id="para_gap" class="fa-solid fa-p"></i>Parking included</p>
+                            </div>
+                            <div>
+                                <p><i id="para_gap" class="fa-solid fa-snowflake"></i>Air conditioning</p>
+                                <p><i id="para_gap" class="fa-solid fa-spa"></i>Spa</p>
+                                <p><i id="para_gap" class="fa-solid fa-utensils"></i>Restaurant</p>
+                            </div>
+                        </div>
+                        <a href="" id="right_arrow_link">See all<i id="angle_right" class="fa-solid fa-angle-right"></i></a>
+                        <h2>Cleaning and safety practices</h2>
+                        <div id="safety_practices">
+                            <div>
+                                <p><i id="para_gap" class="fa-solid fa-spray-can"></i>Cleaned with disinfectant</p>
+                                <p><i  id="para_gap" class="fa-solid fa-head-side-mask"></i>Personal protective equipment</p>
+                            </div>
+                            <div>
+                                <p><i  id="para_gap" class="fa-solid fa-person"></i>Social distancing</p>
+                            </div>
+                        </div>
+                        <a href="" id="right_arrow_link">See all<i id="angle_right" class="fa-solid fa-angle-right"></i></a>
+                </div>
+                <div id="hotel_map">
+                    <div id="hotel_map_div">
+                        <iframe id="map_image" src="" frameborder="0"></iframe>
+                    </div>
+                    <h2>Explore the area</h2>
+                    <div>
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p id="nearby_1"></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p id="nearby_2"></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p id="nearby_3"></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p id="nearby_4"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="rooms_section">
+            <h1>Choose your room</h1>
+            <div id="check_availability">
+                <label for="">Check-in</label>
+                <input type="date" >
+                <label for="">Check-out</label>
+                <input type="date">
+                <select name="" id="">
+                    <option value="">Total members</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                </select>
+                <button>Check availability</button>
+            </div>
+            <div id="different_rooms">
+
+            </div>
+            
+        </div>
+        <div id="about_area_div">
+            <div id="about_city">
+                <h2>About this area</h2>
+                <h3 id="city_name"></h3>
+                <p id="hotel_description"></p>
+            </div>
+            <div id="city_map_section">
+                <div id="large_map_div">
+                    <iframe id="large_map" src="" frameborder="0"></iframe>
+                </div>
+                <div id="whats_nearby">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2>What's nearby</h2>
+                </div>
+                <div id="nearby_places">
+
+                </div>
+            </div>
+        </div>
+        <div id="below_about_area">
+            <div id="about_property">
+                <div>
+                    <h2>About this property</h2>
+                </div>
+                <div>
+                    <div>
+                        <h2 id="property_name"></h2>
+                        <p id="property_description"></p>
+                    </div>
+                    <div>
+                        <div id="awards">
+                            <h2>Awards and affiliations</h2>
+                            <p id="awards_description"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr id="horizontal_line">
+            <div id="clean_practises_div">
+                <div id="clean_practices">
+                    <h2>Cleaning and safety practices</h2>
+                </div>
+                <div>
+                    <div>
+                        <h2 id="cleanliness_measures"><i id="para_gap" class="fa-solid fa-hand-sparkles"></i>Enhanced cleanliness measures</h2>
+                        <p id="cleanliness_des">Disinfectant is used to clean the property</p>
+                    </div>
+                    <div id="distancing_div">
+                        <h2><i  id="para_gap" class="fa-solid fa-person"></i>Social distancing</h2>
+                        <p id="distancing_description">Contactless check-in and check-out <br>
+                            Guest rooms kept vacant for 72 hours between stays <br>
+                            Social distancing measures in place</p>
+                    </div>
+                    <div id="safety_measures_div">
+                        <h2><i id="para_gap" class="fa-solid fa-check"></i>Safety measures</h2>
+                        <p id="safety_measures">Personal protective equipment worn by staff <br>
+                            Masks and gloves available <br>
+                            Hand sanitizer provided <br>
+                            Individually-wrapped food options available for breakfast, lunch, dinner, and through room service <br>
+                            At check-in, guests must provide a record of full COVID-19 vaccination <br>
+                            Guests providing vaccine records must have received complete COVID-19 vaccination at least 3 days prior to check-in</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="below_about_property">
+            <div id="property_amenities_div">
+                <div id="property_amenities">
+                    <h2>Property Amenities</h2>
+                </div>
+                <div id="property_amenities_right_section">
+                    <div>
+                        <div id="distancing_div">
+                            <h2 style="margin-left: -10px;"><i  id="para_gap" class="fa-solid fa-wifi"></i>Internet</h2>
+                            <p id="distancing_description">Available in all rooms: Free WiFi <br>
+                                Free in-room WiFi has a 4-device limit <br>
+                                Available in some public areas: Free WiFi
+                                </p>
+                        </div>
+                        <div id="distancing_div">
+                            <h2 style="margin-left: -8px;"><i  id="para_gap" class="fa-solid fa-p"></i>Parking and transportation</h2>
+                            <p id="distancing_description">Free self parking on site <br>
+                                Onsite parking includes off-street options <br>
+                                Free offsite parking <br>
+                                Limo/town car service
+                                </p>
+                        </div>
+                        <div id="distancing_div">
+                            <h2><i  id="para_gap" class="fa-solid fa-utensils"></i>Food and drink</h2>
+                            <p id="distancing_description">Buffet breakfast available for a fee daily 7 AM–10:30 AM: INR 1300 for adults and INR 1300 for children <br>
+                                10 restaurants and 2 coffee shops <br>
+                                3 bars/lounges and 1 poolside bar <br>
+                                24-hour room service</p>
+                        </div>
+                        <div id="distancing_div">
+                            <h2 style="margin-left: -8px;"><i id="para_gap" class="fa-solid fa-suitcase"></i>Things to do</h2>
+                            <p id="distancing_description">Art gallery <br>
+                                Designer stores <br>
+                                Fitness center <br>
+                                Full-service spa <br>
+                                Outdoor pool <br>
+                                Shopping mall <br>
+                                Shopping</p>
+                        </div>
+                        <div id="distancing_div">
+                            <h2 style="margin-left: -10px;"><i id="para_gap" class="fa-solid fa-people-group"></i>Family friendly</h2>
+                            <p id="distancing_description">Babysitting/childcare (surcharge) <br>
+                                Children's toys <br>
+                                DVD player <br>
+                                Free cribs/infant beds <br>
+                                Laundry facilities <br>
+                                Outdoor pool <br>
+                                Rollaway/extra beds (surcharge) <br>
+                                Snack bar/deli <br>
+                                Soundproofed rooms</p>
+                        </div>
+                        <div id="distancing_div">
+                            <h2><i id="para_gap" class="fa-solid fa-calendar-check"></i>Conveniences</h2>
+                            <p id="distancing_description">ATM/banking services <br>
+                                Ballroom <br>
+                                Elevator <br>
+                                Free newspapers in lobby <br>
+                                Front-desk safe <br>
+                                Gift shop/newsstand</p>
+                        </div>
+                        <div id="distancing_div">
+                            <h2 style="margin-left: -6px;"><i id="para_gap" class="fa-solid fa-bell-concierge"></i>Guest services</h2>
+                            <p id="distancing_description">24-hour front desk <br>
+                                Concierge services <br>
+                                Daily housekeeping <br>
+                                Dry cleaning service <br>
+                                Hair salon <br>
+                                Laundry facilities <br>
+                                Luggage storage <br>
+                                Multilingual staff <br>
+                                Porter/bellhop <br>
+                                Tour/ticket assistance <br>
+                                Turndown service <br>
+                                Wedding services</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="distancing_div">
+                            <h2><i id="para_gap" class="fa-solid fa-check"></i>Languages spoken</h2>
+                            <p id="distancing_description">English <br>
+                                Hindi</p>
+                        </div>
+                        <div id="distancing_div">
+                            <h2 style="margin-left: -4px;"><i id="para_gap" class="fa-solid fa-briefcase"></i>Business services</h2>
+                            <p id="distancing_description">24-hour business center <br>
+                                Conference space <br>
+                                Meeting rooms</p>
+                        </div>
+                        <div id="distancing_div">
+                            <h2 style="margin-left: -10px;"><i id="para_gap" class="fa-solid fa-couch"></i>Outdoors</h2>
+                            <p id="distancing_description">Terrace</p>
+                        </div>
+                        <div id="distancing_div">
+                            <h2 style="margin-left: -10px;"><i id="para_gap" class="fa-solid fa-spa"></i>Spa</h2>
+                            <p id="distancing_description">Aromatherapy <br>
+                                Body scrubs <br>
+                                Body treatments <br>
+                                Body wraps <br>
+                                Facials <br>
+                                Manicures and pedicures <br>
+                                Massages <br>
+                                Spa open daily</p>
+                        </div>
+                        <div id="distancing_div">
+                            <h2><i id="para_gap" class="fa-solid fa-wheelchair"></i>Accessibility</h2>
+                            <p id="distancing_description">If you have requests for specific accessibility needs, please contact the property using the information on the reservation confirmation received after booking. <br>
+                                In-room accessibility <br>
+                                Stair-free path to entrance <br>
+                                Well-lit path to entrance <br>
+                                Wheelchair-accessible path to elevator
+                                </p>
+                        </div>
+                        <div id="distancing_div">
+                            <h2><i id="para_gap" class="fa-solid fa-check"></i>More</h2>
+                            <p id="distancing_description">Designated smoking areas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr id="horizontal_line1">
+            <div id="property_amenities_div">
+                <div id="property_amenities">
+                    <h2>Room amenities</h2>
+                </div>
+                <div id="property_amenities_right_section">
+                    <div>
+                        <div id="distancing_div">
+                            <h2 style="margin-left: -10px;"><i id="para_gap" class="fa-solid fa-bed"></i>Bedroom</h2>
+                            <p id="distancing_description">Air conditioning (climate-controlled) <br>
+                                Bed sheets <br>
+                                Blackout drapes/curtains <br>
+                                Free cribs/infant beds <br>
+                                Pillow menu <br>
+                                Premium bedding <br>
+                                Rollaway/extra beds (surcharge)
+                                </p>
+                        </div>
+                        <div id="distancing_div">
+                            <h2 style="margin-left: -8px;"><i id="para_gap" class="fa-solid fa-shower"></i>Bathroom</h2>
+                            <p id="distancing_description">Bathrobes <br>
+                                Deep soaking bathtub <br>
+                                Designer toiletries <br>
+                                Hair dryer <br>
+                                Private bathroom <br>
+                                Rainfall showerhead <br>
+                                Shower/tub combination <br>
+                                Towels 
+                                </p>
+                        </div>
+                        <div id="distancing_div">
+                            <h2 style="margin-left: -4px;"><i  id="para_gap" class="fa-solid fa-check"></i>Entertainment</h2>
+                            <p id="distancing_description">DVD player <br>
+                                LCD TV <br>
+                                Premium channels <br>
+                                Satellite channels</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="distancing_div">
+                            <h2><i id="para_gap" class="fa-solid fa-utensils"></i>Food and drink</h2>
+                            <p id="distancing_description">Coffee/tea maker <br>
+                                Free bottled water <br>
+                                Minibar</p>
+                        </div>
+                        <div id="distancing_div">
+                            <h2 style="margin-left: -4px;"><i id="para_gap" class="fa-solid fa-check"></i>More</h2>
+                            <p id="distancing_description">Connecting rooms available <br>
+                                Desk <br>
+                                Free newspapers <br>
+                                Individually decorated <br>
+                                Individually furnished <br>
+                                Iron/ironing board <br>
+                                Laptop-friendly workspace <br>
+                                Phone <br>
+                                Safe <br>
+                                Slippers <br>
+                                Soundproofing <br>
+                                Turndown service</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="below_amenities" class="policies">
+            <div id="property_amenities_div">
+                <div id="property_amenities" style="width: 30%;">
+                    <h2>Policies</h2>
+                </div>
+                <div id="policies_right_section" style="width: 70%;">
+                    <div id="check_in_out_div">
+                        <div>
+                            <div id="distancing_div">
+                                <h2>Check-in</h2>
+                                <p id="check_in_out">Check-in from 3:00 PM - midnight <br>
+                                    Express check-in <br>
+                                    Minimum check-in age - 18
+                                    </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div id="distancing_div">
+                                <h2>Check-out</h2>
+                                <p id="check_in_out">Check-out before 11:00 AM <br>
+                                    Express check-out
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 style="font-size: 20px; margin-bottom: 12px;">Special check-in instructions</h2>
+                        <p id="check_in_instructions">The check-in location differs from the property location; to check in, go to In-room check-in <br>
+                            To make arrangements for check-in please contact the property ahead of time using the information on the booking confirmation <br>
+                            If you are planning to arrive after midnight please contact the property in advance using the information on the booking confirmation <br>
+                            Guests planning to arrive outside of normal check-in hours must contact the property in advance for check-in instructions; front desk staff will greet guests on arrival <br>
+                            At check-in, guests must provide a record of full COVID-19 vaccination <br>
+                            Guests providing vaccine records must have received complete COVID-19 vaccination at least 3 days prior to check-in <br>
+                            For more details, please contact the property using the information on the booking confirmation <br>
+                            To register at this property, guests who are Indian citizens must provide a valid photo identity card issued by the Government of India; travelers who are not citizens of India must present a valid passport and visa.</p>
+                        
+                        <h2 style="font-size: 20px; margin-bottom: 12px;">Access methods</h2>
+                        <p id="check_in_instructions">Staffed front desk</p>
+
+                        <h2 style="font-size: 20px; margin-bottom: 12px;">Pets</h2>
+                        <p id="check_in_instructions">No pets or service animals allowed</p>
+
+                        <h2 style="font-size: 20px; margin-bottom: 12px;">Children and extra beds</h2>
+                        <p id="check_in_instructions">Children are welcome <br>
+                            Kids stay free! One child stays free when using existing bedding <br>
+                            Rollaway/extra beds are available for INR 5000.0 per night <br>
+                            Free cribs (infant beds)</p>
+                        <h2 style="font-size: 20px; margin-bottom: 12px;">Property payment types</h2>
+                        <img id="payment_option_image" src="https://i.postimg.cc/Y91Lj4PY/Screenshot-2022-05-07-at-4-10-00-PM.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="review_div">
+            <div id="review_left_section">
+                <div id="rating_section">
+                    <div>
+                        <h2 id="rating_tag"></h2>
+                    </div>
+                    <div>
+                        <h2 id="badge_tag"></h2>
+                        <a href="" id="total_reviews_tag" ></a><br>    
+                        <!-- onclick="return false"   line no 449 and 452 code-->
+                        <div style="margin-top: 15px;">
+                            <a href="" id="verified_reviews" ></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="rating_aspects">
+                    <div id="left_ratings">
+                        <div>
+                            <h2 id="cleaniness_score"></h2>
+                            <p>Cleanliness</p>
+                        </div>
+                        <div>
+                            <h2 id="service_score"></h2>
+                            <p>Service</p>
+                        </div>
+                        <div>
+                            <h2 id="comfort_score"></h2>
+                            <p>Comfort</p>
+                        </div>
+                    </div>
+                    <div id="right_rating">
+                        <div>
+                            <h2 id="condition_score"></h2>
+                            <p>Condition</p>
+                        </div>
+                        <div>
+                            <h2 id="neighbourhood_score"></h2>
+                            <p>Neighbourhood</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="review_right_section">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+</body>
+</html>
+
+<script src="./scripts/hotel_info.js"  type="module"></script>
