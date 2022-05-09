@@ -1,0 +1,468 @@
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+    /* <!-- hompepage start --> */
+
+      /* #homepagebox1  start */
+
+      #homepagebox1{
+        border: 1px solid #caccd2;
+       
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+        border-radius: 10px;
+        padding: 10px 20px;
+
+      }
+
+      #homepagebox1_a {
+        border-bottom: 1px solid #caccd2 ;
+        text-align: center;
+        margin-bottom: 15px;
+       
+       
+      
+      }
+      #homepagebox1_a button{
+        background-color: white;
+        border: none;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 14px;
+        font-weight: 500 ;
+        color: #46484b;
+       
+        
+      }
+      #homepagebox1_a button:hover{
+        cursor: pointer;
+        border-bottom: 2px solid rgb(68, 67, 67);
+        
+      }
+
+      #homepagebox1_b{
+        font-size: 15px;
+        padding: 5px 20px 20px 20px;
+        margin-top: 10px;
+       
+      }
+
+      /* stays start */
+      #homepagebox1_b input:hover{
+        cursor: pointer;
+      
+      }
+      #homepagebox1_b input{
+        font-size: 15px;
+      }
+
+      #homepagebox1_b #inputbox1{
+        padding: 10px 270px 10px 30px;
+        margin-right: 8px;
+        border-radius: 8px;
+        border: 1px solid #64666a;
+       
+      }
+      #homepagebox1_b #inputbox2{
+        padding:10px 0px 10px 50px ;
+        margin-right: 8px;
+        border-radius: 10px;
+        border: 1px solid #64666a;
+      }
+      #homepagebox1_b #inputbox3{
+        padding:10px 0px 10px 50px ;
+        margin-right: 8px;
+        border-radius: 10px;
+        border: 1px solid #64666a;
+      }
+      #homepagebox1_b #inputbox4{
+        padding:10px 30px 10px 10px ;
+        border-radius: 10px;
+        border: 1px solid #64666a;
+      }
+       /* changes HERE start*/
+       #homepagebox1_b #inputbox5 {
+        margin-top: 20px;
+        margin-right: 5px;
+       
+        /* margin-left: -360px; */
+        }
+        #homepagebox1_b #inputbox6{
+          margin-left: 50px;
+          margin-right: 5px;
+        } 
+       
+  
+        #homepagebox1_b #inputboxbutton{
+          margin-top: 20px;
+          padding: 13px 60px;
+          margin-left: 45%;
+          border-radius: 8px;
+          border-radius: 10px;
+          border: none;
+          background-color: #3662d8;
+          color: white;
+          outline: none;
+          font-weight: 500;
+          font-size: 15px;
+
+        }
+  
+         /* changes HERE end*/
+      #homepagebox1_b #inputboxbutton:hover{
+        cursor: pointer;
+        background-color: #2f3aa0;
+
+      }
+
+      #homepagebox1_b label{
+        font-size: 15px;
+        color: #454649;
+      }
+
+
+      .checkin_icon{
+        padding-left: 25px;
+        background: url("checkinjpg.jpg") no-repeat left;
+        background-size: 50px;
+      
+      }
+
+      .checkout_icon{
+       
+        
+        padding-left: 25px;
+        background: url("checkout.jpg") no-repeat left;
+        background-size: 50px;
+      
+      }
+
+     #project_homepage #homepagebox1 #homepagebox1_a button:focus{
+           
+     outline: none;
+    border-bottom: 2px solid;
+      }
+
+      /* flights starts */
+      #homepagebox1_ba{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+      #homepagebox1_ba_1{
+     
+       gap: 40px;
+     
+      }
+      #homepagebox1_ba_1 button{
+        padding: 10px 20px;
+        border: none;
+        background-color: white;
+        font-size: 15px;
+        font-weight: 500;
+      }
+      #homepagebox1_ba_1 button:hover{
+        cursor: pointer;
+        color: #2355dd;
+        background-color:#d7dae2 ;
+        border-radius: 8px
+        
+
+      }
+      #homepagebox1_ba_2{
+        display: flex;
+       gap: 20px;
+       font-size: 15px;
+       color: #3662d8;
+      }
+
+      input{
+        padding: 10px 180px 10px 20px;
+        /* margin-right: 20px; */
+        border: 1px solid #64666a;
+        border-radius: 8px;
+        font-size: 15px;
+      
+       
+      }
+
+      #flights_search_btn{
+        margin-top: 20px;
+          padding: 13px 60px;
+          margin-left: 45%;
+          border-radius: 8px;
+          border-radius: 10px;
+          border: none;
+          background-color: #3662d8;
+          color: white;
+          outline: none;
+          font-weight: 500;
+          font-size: 15px;
+      }
+      #flights_search_btn:hover{
+        cursor: pointer;
+        background-color: #2f3aa0;
+      }
+
+      .input_icon{
+       
+        padding-left: 25px;
+        background: url("https://static.vecteezy.com/system/resources/thumbnails/000/552/683/small/location_pin_002.jpg") no-repeat left;
+        background-size: 20px;
+      
+        
+      }
+
+        /* cars start */
+          
+        #car_location1{
+          padding-right: 31%;
+          margin-right: 5px;
+          
+        }
+        #car_location2{
+          padding-right: 31%;
+        }
+        #car_date1{
+          padding-right:136px ;
+          margin-top: 10px;
+          margin-right: 5px;
+          
+        }
+        #car_date2{
+          padding-right:136px ;
+          margin-right: 5px;
+          
+        }
+        #car_time1{
+          padding-right:136px ;
+          margin-right: 5px;
+        }
+        #car_time2{
+          padding-right:136px ;
+        }
+
+        #cars_search_btn{
+          margin-top: 20px;
+          padding: 13px 60px;
+          margin-left: 45%;
+          border-radius: 8px;
+          border-radius: 10px;
+          border: none;
+          background-color: #3662d8;
+          color: white;
+          outline: none;
+          font-weight: 500;
+          font-size: 15px;
+        }
+
+
+        /* packages start */
+
+        #homepagebox1_ba_packages{
+          display: flex;
+          justify-content: end;
+          color: #2355dd;
+          padding-right: 10px;
+        }
+
+        #packages_location1{
+          padding-right: 15%;
+          margin-right: 5px;
+          
+        }
+        #packages_location2{
+          padding-right: 15%;
+          margin-right: 10px;
+        }
+        #packages_date1{
+          padding-right:10px ;
+          margin-top: 10px;
+          margin-right: 10px;
+          
+        }
+        #packages_date2{
+          padding-right:10px ;
+          
+        }
+        #packages_checkbox{
+          margin-top: 20px;
+        }
+        #packages_checkbox + label{
+          font-size: 15px;
+          color: #4e4f53;
+        }
+
+        #packages_search_btn{
+          margin-top: 20px;
+          padding: 13px 60px;
+          margin-left: 45%;
+          border-radius: 8px;
+          border-radius: 10px;
+          border: none;
+          background-color: #3662d8;
+          color: white;
+          outline: none;
+          font-weight: 500;
+          font-size: 15px;
+        }
+
+        /* things to do start */
+        #things_location2{
+          padding-right: 41%;
+          margin-right: 10px;
+        }
+        #things_date1{
+          padding-right:65px ;
+          margin-top: 10px;
+          margin-right: 10px;
+          
+        }
+        #things_date2{
+          padding-right:65px ;
+          
+        }
+        #things_search_btn{
+          margin-top: 20px;
+          padding: 13px 60px;
+          margin-left: 45%;
+          border-radius: 8px;
+          border-radius: 10px;
+          border: none;
+          background-color: #3662d8;
+          color: white;
+          outline: none;
+          font-weight: 500;
+          font-size: 15px;
+        }
+
+           /* changes HERE start*/
+           #location_suggestion_div{
+           
+            display: none;
+            padding-left:15px;
+            height: 250px;
+            /* background-color:white; */
+            overflow: auto;
+            position:absolute;
+            background-color: white;
+            z-index: 1;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width: 470px;
+            margin-top: 4px;
+            border-radius: 8px;
+        }
+         /* changes HERE end*/
+
+
+      
+    /* #homepagebox2 start */
+
+    #homepagebox2{
+      width: 80%;
+     
+      margin: auto;
+      background-image: url("homepageimg.png");
+      margin-top: 50px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+      margin-bottom: 80px;
+      color: white;
+      padding-top: 120px;
+      padding-bottom: 140px;
+      padding-left: 60px;
+    }
+    #homepagebox2_a{
+      width: 30%;
+     
+    }
+    #homepagebox2_a p{
+      font-size: 16px;
+    }
+    #homepagebox2_a button{
+      padding:10px 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #3662d8;
+      color: white;
+      font-weight: 500;
+    }
+    #homepagebox2_a button:hover{
+      cursor: pointer;
+      background-color: #2f3aa0;
+    }
+
+
+ /* traveller style  */
+
+#stay_traveller_rooms{
+  display: flex;
+  /* border: 1px solid; */
+}
+
+#travellers_div {
+  border: 1px solid black;
+  width: 23%;
+  display: flex;
+  border-radius: 8px;
+  padding: 10px 10px 10px 10px;
+
+}
+
+#trveller_icon{
+  margin-right: 5px;
+}
+
+#travellers_display {
+  width: 23%;
+  /* border: 1px solid black; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 10px;
+  margin-left:50%;
+  margin-top: -80px;
+  z-index: 1; 
+  position: absolute;
+   background-color: white;
+
+}
+#travellers_display p{
+  font-weight:500;
+}
+
+#counter_travellers {
+  display: flex;
+  justify-content: space-between;
+}
+
+#counter {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+
+}
+
+#add_travellers,
+#remove_travellers {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 20px;
+  text-align: center;
+  padding: 2px;
+  cursor: pointer;
+}
+
+#count_doneButton {
+  width: 100%;
+  color: white;
+  background-color: #3763d8;
+  padding: 10px 0px 10px 0px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 10px;
+
+}
