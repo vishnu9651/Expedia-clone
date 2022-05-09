@@ -10,7 +10,6 @@
 * JavaScript (LocalStorage, DOM)
 * Advanced Js
 * Bootstrap
-* 
 * Rapid Free API
 
 
@@ -69,9 +68,9 @@
 
 ![2022-04-02 (5)]()
 
-### Adress Page:
+### Hotel Information Page:
 
-9.For confirming an order, one has to enter the address for delivery of the item. Also, here all fields are mandatory any field which has no field will not lead to the next page.
+9.After clicking on any hotel from previous page, you will see all necessary details of that hotel on this page. These details include maps, room details, hotel ratings, all the reviews, its amenities and its policies. 
 
 ![2022-04-02 (5)]()
 
@@ -163,11 +162,11 @@
 
 
 ### Gaurav Krishna Verma :
-> [Linkedin]()
+> [Linkedin](https://www.linkedin.com/in/gaurav-verma-17624b129?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BopPAX9GZRYKw76dDxP5qxQ%3D%3D)
 
-> [GitHub]()
+> [GitHub](https://github.com/gauravKverma)
 
->  [blog Link]()
+>  [blog Link](https://medium.com/@gauravverma004)
 
 ### Shivam Radheshyam Bais:
 > [Linkedin]()
