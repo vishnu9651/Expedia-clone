@@ -27,23 +27,23 @@
 
 2.It is for new users one can Create Account for Booking Hotels,flights,Cars etc, And can enjoy the services of Expedia Travel. Create Account  contains the registration of email, name,surename and setting of a password.Password creation is as per standard approach. Minimum length should be of Eight Charactors,One capital letter,one aplha numeric key and one should be a number. Acoordingly strength of the password is shown dynamically in different colors like red,blue and green as shown in the given below images.
    
-![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/b8861428776957a6af9e4e106276ebf43a5afdea/Create%20account%20default.png)
-![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/0916fdee3e6eaa654f0307ed5c72f0d6a8014ba7/Create%20account%20with%20weak%20password.png)
-![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/0916fdee3e6eaa654f0307ed5c72f0d6a8014ba7/Create%20account%20with%20Medium%20password.png)
-![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/0916fdee3e6eaa654f0307ed5c72f0d6a8014ba7/Create%20account%20with%20strong%20password.png)
+![2022-04-02 (5)]()
+![2022-04-02 (5)]()
+![2022-04-02 (5)]()
+![2022-04-02 (5)]()
 
 
 
 ### Welcome Page:
 3.After successfully creating account you will redirect to welcom page , and from here by clicking on continue it will takes you in login page.
-![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/0916fdee3e6eaa654f0307ed5c72f0d6a8014ba7/Welcome%20msg.png)
+![2022-04-02 (5)]()
 
 ### login Page/ Sign in Page:
 
 4.After Creating Account , One can log in to the site by entering the rightemail id and password.If Password or Email is not matching it will throw the error as shown in below image.After sign we will redirect to homepage.
 
-![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/0916fdee3e6eaa654f0307ed5c72f0d6a8014ba7/login%20Default.png)
-![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/0916fdee3e6eaa654f0307ed5c72f0d6a8014ba7/Login%20with%20password%20or%20email%20error.png)
+![2022-04-02 (5)]()
+![2022-04-02 (5)]()
 
 ### Home Page:
 
