@@ -50,105 +50,54 @@
 
 ![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/5b700d77d71f418e01c87335b7dc92db59acb540/homepage.png)
 
-### Search Hotels as per your location:
+### Search Hotels :
 
-6.In the brand page we can see various products on the basis ofrating and also user can sort functionality for price hight to low and vice versa. There is an options to add products in cart .
+6.Here you can search any hotels across the world by just entering location, checkin date and checkout date along with no of travellers .
+you also sort the hotels according to price either low to high or high to low and also you can sort by the Ratings as shown in the below images.
 
-![2022-04-02 (5)]()
-![2022-04-02 (5)]()
-![2022-04-02 (5)]()
-
-### Nykaa Page:
-
-7.In this you will see all products which are available only on Nykaa.
-
-![2022-04-02 (5)]()
-
-### Cart Page:
-
-8.From the brand page, you can add items to the cart for ordering or for future checkout. The cart will have your watchlist and anytime you can also remove items from the cart and can add also.
-
-![2022-04-02 (5)]()
-
-### Hotel Information Page:
-
-9.After clicking on any hotel from previous page, you will see all necessary details of that hotel on this page. These details include maps, room details, hotel ratings, all the reviews, its amenities and its policies. 
-
-![2022-04-02 (5)]()
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/758d1a47143462102d0ad375f05e2755604beb37/search%20results%20for%20location.png)
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/758d1a47143462102d0ad375f05e2755604beb37/search%20results%20high%20to%20low%20price.png)
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/758d1a47143462102d0ad375f05e2755604beb37/search%20results%20rarting.png)
 
 
-### Payment Page:
+### Hotel Information:
 
-10.After entering the address, you will redirect to the payment page there you will find multiple payment options . you can select any one option. After entering the right OTP your payment will get successfully done.
+7.After clicking on any hotel from previous page, you will see all necessary details of that hotel on this page. These details include maps, room details, hotel ratings, all the reviews, its amenities and its policies..
 
-![2022-04-02 (5)]()
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/758d1a47143462102d0ad375f05e2755604beb37/selected%20hotel.png)
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/758d1a47143462102d0ad375f05e2755604beb37/selected%20hotel%20amenities.png)
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/758d1a47143462102d0ad375f05e2755604beb37/selected%20hotel%20area%20map.png)
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/758d1a47143462102d0ad375f05e2755604beb37/selected%20hotel%20review.png)
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/758d1a47143462102d0ad375f05e2755604beb37/review%20and%20checkout.png)
+
+
+### Payment and Booking confirmation:
+
+8..After entering the address, you will redirect to the payment page there you will find multiple payment options . you can select any one option. After entering the  right OTP your payment will get successfully done.
+ After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/423abacbd439997009f69513be8d066fc43ee99e/payment%20default.png)
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/691c35c41e116a20e2c9c21343b60cf6082c4119/payment%20details1.png)
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/423abacbd439997009f69513be8d066fc43ee99e/booking%20successful%20alert.png)
+
+
+
 
 ### Payment receipt: :
 
-11.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
+9.After successful payment, a receipt will generate that contains the customer's name, email, and amount paid for payment confirmation proof.
 
-![2022-04-02 (5)]()
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/423abacbd439997009f69513be8d066fc43ee99e/booking%20receipt.png)
 
 
 ### footer: :
 
-12.At the bottom of our site there is a section which contains all information about our company, term and conditions, and customer support.
+101.At the bottom of our site there is a section which contains all information about our company, term and conditions, and customer support.
 
-![2022-04-02 (5)]()
-
-
-### Makeup Page: :
-
-13.This page contains makeup related products.
-
-![2022-04-02 (5)]()
-
-### Skin Page: :
-
-14.This page contains skin related products.
-
-![2022-04-02 (5)]()
-
-
-### Offers Page: :
-
-15.This page conatins current offers which are going on.
-
-![2022-04-02 (5)]()
-
-
-### GetApp Page: :
-
-16.you can also use our mobile through the download link which is provided here.
-
-![2022-04-02 (5)]()
-
-
-### Store Page: :
-
-17.This page will give you location of our nearest stores.
-
-![2022-04-02 (5)]()
-
-
-### Gift Crad Page: :
-
-18.you can also gift the products throgh this page.
-
-![2022-04-02 (5)]()
-
-
-### Help Page: :
-
-19.For FAQ one can use this page .
-
-![2022-04-02 (5)]()
-
-
-
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/575cecf664db3a5d80a69da71449076ee869af63/footer.png)
 
 # Video demo
-[video](
+[video](https://drive.google.com/file/d/1NYETW5kHQD56gsInL_Xc-aNdH1N4U7Qu/view
 )
 
 
@@ -182,7 +131,7 @@
 
 >  [GitHub](https://github.com/faisal1205)
 
->  [blog Link](https://medium.com/@mirzafaisal030/collaborative-project-at-masai-school-nykaa-clone-e6aae178053e)
+>  [blog Link]()
 
 ### Vishnu Kant Upadhyay:
 > [Linkedin]()
