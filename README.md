@@ -20,40 +20,42 @@
 
 1.Open index.html on live server(using VS code live server).You will see our Landing Page 
 
-![2022-04-02 (5)]()
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/f3aee05ebeef9f84538f66c5b864ef2af5dd2a3e/Landing%20page1.png)
 
 ### Create Account Page:
 
 2.It is for new users one can Create Account for Booking Hotels,flights,Cars etc, And can enjoy the services of Expedia Travel. Create Account  contains the registration of email, name,surename and setting of a password.Password creation is as per standard approach. Minimum length should be of Eight Charactors,One capital letter,one aplha numeric key and one should be a number. Acoordingly strength of the password is shown dynamically in different colors like red,blue and green as shown in the given below images.
    
-![2022-04-02 (5)]()
-![2022-04-02 (5)]()
-![2022-04-02 (5)]()
-![2022-04-02 (5)]()
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/5b700d77d71f418e01c87335b7dc92db59acb540/create%20account%20Default.png)
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/5b700d77d71f418e01c87335b7dc92db59acb540/Create%20account%20with%20weak%20password.png)
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/5b700d77d71f418e01c87335b7dc92db59acb540/Create%20account%20with%20Medium%20password.png)
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/5b700d77d71f418e01c87335b7dc92db59acb540/Create%20account%20with%20strong%20password.png)
 
 
 
 ### Welcome Page:
 3.After successfully creating account you will redirect to welcom page , and from here by clicking on continue it will takes you in login page.
-![2022-04-02 (5)]()
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/5b700d77d71f418e01c87335b7dc92db59acb540/Welcome%20msg.png)
 
 ### login Page/ Sign in Page:
 
 4.After Creating Account , One can log in to the site by entering the rightemail id and password.If Password or Email is not matching it will throw the error as shown in below image.After sign we will redirect to homepage.
 
-![2022-04-02 (5)]()
-![2022-04-02 (5)]()
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/5b700d77d71f418e01c87335b7dc92db59acb540/login%20Default.png)
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/5b700d77d71f418e01c87335b7dc92db59acb540/sigin%20page%20with%20error.png)
 
 ### Home Page:
 
 5.After successfully login you will redirect to our HomePgae. Where you will find all information related with our website.
 
-![2022-04-02 (5)]()
+![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/5b700d77d71f418e01c87335b7dc92db59acb540/homepage.png)
 
-### Brands Page:
+### Search Hotels as per your location:
 
 6.In the brand page we can see various products on the basis ofrating and also user can sort functionality for price hight to low and vice versa. There is an options to add products in cart .
 
+![2022-04-02 (5)]()
+![2022-04-02 (5)]()
 ![2022-04-02 (5)]()
 
 ### Nykaa Page:
