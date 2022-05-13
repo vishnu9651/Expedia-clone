@@ -18,7 +18,7 @@
 
 ### Landing Page:
 
-1.Open index.html on live server(using VS code live server).You will see our Landing Page 
+1.Open index.html on live server(using VS code live server).You will see our Landing Page. here you can see the navar by clicking on more travel we see the list of things that will booked from our website. Below navbar there is search section at which you can search for hotels, cars, flights, according to location. Also see the different pakages. 
 
 ![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/f3aee05ebeef9f84538f66c5b864ef2af5dd2a3e/Landing%20page1.png)
 
@@ -46,7 +46,7 @@
 
 ### Home Page:
 
-5.After successfully login you will redirect to our HomePgae. Where you will find all information related with our website.
+5.After successfully login you will redirect to our HomePgae. Where you will find all information related with our website. At search section simply enter location, related details by clicking on search the information will be shown on products page.
 
 ![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/5b700d77d71f418e01c87335b7dc92db59acb540/homepage.png)
 
