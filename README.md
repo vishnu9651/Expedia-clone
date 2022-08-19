@@ -12,6 +12,8 @@
 * Bootstrap
 * Rapid Free API
 
+# Deployment link 
+https://expedia-travels-clone.netlify.app/
 
 # Key Highlights of our project.
 #### In order to use our website you need to follow the below steps.
