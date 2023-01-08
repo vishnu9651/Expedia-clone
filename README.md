@@ -97,11 +97,11 @@ you also sort the hotels according to price either low to high or high to low an
 101.At the bottom of our site there is a section which contains all information about our company, term and conditions, and customer support.
 
 ![2022-04-02 (5)](https://github.com/vishnu9651/Expedia-clone/blob/575cecf664db3a5d80a69da71449076ee869af63/footer.png)
-
+<!--
 # Video demo
 [video](https://drive.google.com/file/d/1NYETW5kHQD56gsInL_Xc-aNdH1N4U7Qu/view
 )
-
+-->
 
 # Authors
 
@@ -115,12 +115,13 @@ you also sort the hotels according to price either low to high or high to low an
 
 
 ### Gaurav Krishna Verma :
+<!--
 > [Linkedin](https://www.linkedin.com/in/gaurav-verma-17624b129?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BopPAX9GZRYKw76dDxP5qxQ%3D%3D)
-
+-->
 > [GitHub](https://github.com/gauravKverma)
-
+<!--
 >  [blog Link](https://medium.com/@gauravverma004)
-
+-->
 ### Shivam Radheshyam Bais:
 > [Linkedin]()
 
